@@ -87,6 +87,9 @@ public class InventoryScript : MonoBehaviour {
 						   (buttonMargin + buttonMargin * i + buttonSize * i),
 						   buttonSize, buttonSize), itemsList [i].getItemIcon ())) {
 
+						/*    --------------- kod podjęcia akcji przez przycisk ---------------    */
+						itemsList [i].action ();
+
 						//zmniejszenie ilości
 						itemsList[i].setItemCounter(itemsList[i].itemCounter - 1);
 						Debug.Log ("After" + " --- " + itemsList [i].itemCounter);
@@ -96,7 +99,7 @@ public class InventoryScript : MonoBehaviour {
 							itemsList.Remove (itemsList [i]);
 						}
 
-						/*    --------------- kod podjęcia akcji przez przycisk ---------------    */
+
 
 						//Debug.Log ("CLICKING ON " + itemsList[i].getItemName());
 					}

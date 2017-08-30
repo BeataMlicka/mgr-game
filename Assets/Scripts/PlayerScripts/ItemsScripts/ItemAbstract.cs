@@ -44,6 +44,9 @@ public abstract class ItemAbstract : MonoBehaviour {
 		return this.disposable;
 	}
 
+	public abstract void action ();
+
+
 	//--------------------------------------------------------------------------------------------------------//
 
 	public void setIcon(Texture2D itemIcon){
@@ -53,5 +56,6 @@ public abstract class ItemAbstract : MonoBehaviour {
 	public void setItemCounter(int value){
 		this.itemCounter = value;
 	}
+
 
 }

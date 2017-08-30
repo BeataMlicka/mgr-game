@@ -39,5 +39,12 @@ public class Battery : ItemAbstract {
 		CameraController.instance.setCursorOnObject(false);
 		this.objectIsSelected = false;
 	}
-		
+
+
+	//--------------------------------------------------------------------------------------------------------//
+
+	public override void action(){
+		Debug.Log ("Jestem tutaj... :(");
+		Flashlight.instance.setBatteryLoadingLevel (20);
+	}
 }

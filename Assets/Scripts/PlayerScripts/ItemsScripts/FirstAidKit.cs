@@ -36,4 +36,10 @@ public class FirstAidKit : ItemAbstract {
 		this.objectIsSelected = false;
 	}
 
+
+	public override void action(){
+		Debug.Log ("Jestem tutaj... :(");
+		Flashlight.instance.setBatteryLoadingLevel (20);
+	}
+
 }

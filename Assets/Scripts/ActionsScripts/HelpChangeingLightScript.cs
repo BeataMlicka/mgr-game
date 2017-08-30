@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class HelpChangeingLightScript : MonoBehaviour {
-
+	/*
 	public Light mainHallLight;
 	public Light corridorLight;
 	public Light officeLight;
@@ -24,7 +24,7 @@ public class HelpChangeingLightScript : MonoBehaviour {
 		officeRoomLight.color = Color.blue;
 	}
 
-
+*/
 }
 
 //mainHallLight.intensity = 0.1F;  //zmiana intensywności światła
