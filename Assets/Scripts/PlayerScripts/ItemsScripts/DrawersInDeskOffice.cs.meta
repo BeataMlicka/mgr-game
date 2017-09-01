@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 44371afb82ef1e942955ec8c1ee36c22
+timeCreated: 1504184295
+licenseType: Free
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - audioSource: {instanceID: 0}
+  - openDrawer: {fileID: 8300000, guid: 8e99ac15c4905e44bba9b115068ca382, type: 3}
+  - closeDrawers: {fileID: 8300000, guid: ab54c35fa9c38b846ab98f6d85c2d720, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -14,6 +14,7 @@ public abstract class ItemAbstract : MonoBehaviour {
 	public string description;
 	public string type;
 	public bool disposable;
+	public bool objectIsSelected;
 
 	//--------------------------------------------------------------------------------------------------------//
 	void OnMouseEnter() {}

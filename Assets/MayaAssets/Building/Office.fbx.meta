@@ -113,6 +113,51 @@ ModelImporter:
     100210: Office_stairs:pCube1
     100212: Office_stairs:window
     100214: pCube27
+    100216: w
+    100218: carpet
+    100220: desk
+    100222: desk_base
+    100224: desk_blade
+    100226: left_drawer_1
+    100228: left_drawer_2
+    100230: left_drawer_3
+    100232: left_drawer_4
+    100234: middle_drawer_1
+    100236: right_drawer_1
+    100238: right_drawer_2
+    100240: right_drawer_3
+    100242: right_drawer_4
+    100244: door
+    100246: pCube35
+    100248: pCube36
+    100250: pCube37
+    100252: pCube38
+    100254: pCube39
+    100256: Room_above_office1:balustrade
+    100258: Room_above_office1:group1
+    100260: Room_above_office1:Office:bottom1
+    100262: Room_above_office1:Office:door
+    100264: Room_above_office1:Office:door1
+    100266: Room_above_office1:Office_stairs:Office:bottom1
+    100268: Room_above_office1:Office_stairs:Office:door
+    100270: Room_above_office1:Office_stairs:Office:door1
+    100272: Room_above_office1:Office_stairs:pCube1
+    100274: Room_above_office1:Office_stairs:window
+    100276: Room_above_office1:OfficeBase1:group1
+    100278: Room_above_office1:OfficeBase1:Office:bottom1
+    100280: Room_above_office1:OfficeBase1:pCube1
+    100282: Room_above_office1:OfficeBase1:window
+    100284: Room_above_office1:OfficeBase:balustrade
+    100286: Room_above_office1:OfficeBase:group1
+    100288: Room_above_office1:OfficeBase:group2
+    100290: Room_above_office1:OfficeBase:Office:bottom1
+    100292: Room_above_office1:OfficeBase:pCube1
+    100294: Room_above_office1:OfficeBase:second_window
+    100296: Room_above_office1:OfficeBase:window
+    100298: Room_above_office1:pCube1
+    100300: Room_above_office1:window
+    100302: Window:Office:bottom1
+    100304: Window:window
     400000: //RootNode
     400002: pCube1
     400004: persp1
@@ -221,6 +266,51 @@ ModelImporter:
     400210: Office_stairs:pCube1
     400212: Office_stairs:window
     400214: pCube27
+    400216: w
+    400218: carpet
+    400220: desk
+    400222: desk_base
+    400224: desk_blade
+    400226: left_drawer_1
+    400228: left_drawer_2
+    400230: left_drawer_3
+    400232: left_drawer_4
+    400234: middle_drawer_1
+    400236: right_drawer_1
+    400238: right_drawer_2
+    400240: right_drawer_3
+    400242: right_drawer_4
+    400244: door
+    400246: pCube35
+    400248: pCube36
+    400250: pCube37
+    400252: pCube38
+    400254: pCube39
+    400256: Room_above_office1:balustrade
+    400258: Room_above_office1:group1
+    400260: Room_above_office1:Office:bottom1
+    400262: Room_above_office1:Office:door
+    400264: Room_above_office1:Office:door1
+    400266: Room_above_office1:Office_stairs:Office:bottom1
+    400268: Room_above_office1:Office_stairs:Office:door
+    400270: Room_above_office1:Office_stairs:Office:door1
+    400272: Room_above_office1:Office_stairs:pCube1
+    400274: Room_above_office1:Office_stairs:window
+    400276: Room_above_office1:OfficeBase1:group1
+    400278: Room_above_office1:OfficeBase1:Office:bottom1
+    400280: Room_above_office1:OfficeBase1:pCube1
+    400282: Room_above_office1:OfficeBase1:window
+    400284: Room_above_office1:OfficeBase:balustrade
+    400286: Room_above_office1:OfficeBase:group1
+    400288: Room_above_office1:OfficeBase:group2
+    400290: Room_above_office1:OfficeBase:Office:bottom1
+    400292: Room_above_office1:OfficeBase:pCube1
+    400294: Room_above_office1:OfficeBase:second_window
+    400296: Room_above_office1:OfficeBase:window
+    400298: Room_above_office1:pCube1
+    400300: Room_above_office1:window
+    400302: Window:Office:bottom1
+    400304: Window:window
     2300000: pCube1
     2300002: //RootNode
     2300004: pCube2
@@ -315,6 +405,27 @@ ModelImporter:
     2300182: Office_stairs:Office_with_first_floor:stairs
     2300184: Office_stairs:pCube1
     2300186: pCube27
+    2300188: carpet
+    2300190: desk_base
+    2300192: desk_blade
+    2300194: left_drawer_1
+    2300196: left_drawer_2
+    2300198: left_drawer_3
+    2300200: left_drawer_4
+    2300202: middle_drawer_1
+    2300204: right_drawer_1
+    2300206: right_drawer_2
+    2300208: right_drawer_3
+    2300210: right_drawer_4
+    2300212: pCube35
+    2300214: pCube36
+    2300216: pCube37
+    2300218: pCube38
+    2300220: pCube39
+    2300222: Room_above_office1:Office_stairs:pCube1
+    2300224: Room_above_office1:OfficeBase1:pCube1
+    2300226: Room_above_office1:OfficeBase:pCube1
+    2300228: Room_above_office1:pCube1
     3300000: pCube1
     3300002: //RootNode
     3300004: pCube2
@@ -409,6 +520,27 @@ ModelImporter:
     3300182: Office_stairs:Office_with_first_floor:stairs
     3300184: Office_stairs:pCube1
     3300186: pCube27
+    3300188: carpet
+    3300190: desk_base
+    3300192: desk_blade
+    3300194: left_drawer_1
+    3300196: left_drawer_2
+    3300198: left_drawer_3
+    3300200: left_drawer_4
+    3300202: middle_drawer_1
+    3300204: right_drawer_1
+    3300206: right_drawer_2
+    3300208: right_drawer_3
+    3300210: right_drawer_4
+    3300212: pCube35
+    3300214: pCube36
+    3300216: pCube37
+    3300218: pCube38
+    3300220: pCube39
+    3300222: Room_above_office1:Office_stairs:pCube1
+    3300224: Room_above_office1:OfficeBase1:pCube1
+    3300226: Room_above_office1:OfficeBase:pCube1
+    3300228: Room_above_office1:pCube1
     4300000: pCube1
     4300002: pCube2
     4300004: pCube4
@@ -502,6 +634,27 @@ ModelImporter:
     4300180: Office_stairs:Office:pCube12
     4300182: Office_stairs:Office:pCube4
     4300184: Office_stairs:Office:pCube11
+    4300186: carpet
+    4300188: left_drawer_4
+    4300190: middle_drawer_1
+    4300192: right_drawer_1
+    4300194: right_drawer_2
+    4300196: desk_base
+    4300198: desk_blade
+    4300200: left_drawer_1
+    4300202: left_drawer_2
+    4300204: right_drawer_3
+    4300206: left_drawer_3
+    4300208: right_drawer_4
+    4300210: pCube35
+    4300212: pCube36
+    4300214: pCube38
+    4300216: pCube39
+    4300218: pCube37
+    4300220: Room_above_office1:pCube1
+    4300222: Room_above_office1:Office_stairs:pCube1
+    4300224: Room_above_office1:OfficeBase:pCube1
+    4300226: Room_above_office1:OfficeBase1:pCube1
     6400000: pCube1
     6400002: //RootNode
     6400004: pCube2
@@ -596,6 +749,27 @@ ModelImporter:
     6400182: Office_stairs:Office_with_first_floor:stairs
     6400184: Office_stairs:pCube1
     6400186: pCube27
+    6400188: carpet
+    6400190: desk_base
+    6400192: desk_blade
+    6400194: left_drawer_1
+    6400196: left_drawer_2
+    6400198: left_drawer_3
+    6400200: left_drawer_4
+    6400202: middle_drawer_1
+    6400204: right_drawer_1
+    6400206: right_drawer_2
+    6400208: right_drawer_3
+    6400210: right_drawer_4
+    6400212: pCube35
+    6400214: pCube36
+    6400216: pCube37
+    6400218: pCube38
+    6400220: pCube39
+    6400222: Room_above_office1:Office_stairs:pCube1
+    6400224: Room_above_office1:OfficeBase1:pCube1
+    6400226: Room_above_office1:OfficeBase:pCube1
+    6400228: Room_above_office1:pCube1
     7400000: Take 001
     9500000: //RootNode
   materials:

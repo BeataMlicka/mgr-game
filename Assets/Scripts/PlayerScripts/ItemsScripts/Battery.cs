@@ -9,8 +9,6 @@ public class Battery : ItemAbstract {
 
 	private int addEnergy = 10;
 
-	private bool objectIsSelected;
-
 	void Start(){
 		objectIsSelected = false;
 		itemCounter = 0;
@@ -26,6 +24,7 @@ public class Battery : ItemAbstract {
 		if(objectIsSelected && Input.GetMouseButtonDown(0)){
 			setIcon (batteryIcon);
 			InventoryScript.instance.addItem (this);
+			Destroy (gameObject);
 		}
 	}
 
@@ -45,6 +44,6 @@ public class Battery : ItemAbstract {
 
 	public override void action(){
 		Debug.Log ("Jestem tutaj... :(");
-		Flashlight.instance.setBatteryLoadingLevel (20);
+		FlashlightLight.instance.setBatteryLoadingLevel (20);
 	}
 }
