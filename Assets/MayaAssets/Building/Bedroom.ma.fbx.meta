@@ -57,6 +57,21 @@ ModelImporter:
     100098: pCube4
     100100: pPlane1
     100102: window
+    100104: door
+    100106: Door:balustrade
+    100108: Door:first_window
+    100110: Door:floor
+    100112: Door:open_door
+    100114: Door:open_door1
+    100116: Door:pCube38
+    100118: Door:pCube39
+    100120: Door:second_window
+    100122: Door:windows
+    100124: group2
+    100126: pCube38
+    100128: pCube39
+    100130: pCube40
+    100132: pCube41
     400000: balustrade
     400002: //RootNode
     400004: group1
@@ -109,6 +124,21 @@ ModelImporter:
     400098: pCube4
     400100: pPlane1
     400102: window
+    400104: door
+    400106: Door:balustrade
+    400108: Door:first_window
+    400110: Door:floor
+    400112: Door:open_door
+    400114: Door:open_door1
+    400116: Door:pCube38
+    400118: Door:pCube39
+    400120: Door:second_window
+    400122: Door:windows
+    400124: group2
+    400126: pCube38
+    400128: pCube39
+    400130: pCube40
+    400132: pCube41
     2300000: Office:pCube26
     2300002: Office:pCube27
     2300004: Office_stairs:pCube1
@@ -140,6 +170,12 @@ ModelImporter:
     2300056: pCube3
     2300058: pCube4
     2300060: pPlane1
+    2300062: Door:pCube38
+    2300064: Door:pCube39
+    2300066: pCube38
+    2300068: pCube39
+    2300070: pCube40
+    2300072: pCube41
     3300000: Office:pCube26
     3300002: Office:pCube27
     3300004: Office_stairs:pCube1
@@ -171,6 +207,12 @@ ModelImporter:
     3300056: pCube3
     3300058: pCube4
     3300060: pPlane1
+    3300062: Door:pCube38
+    3300064: Door:pCube39
+    3300066: pCube38
+    3300068: pCube39
+    3300070: pCube40
+    3300072: pCube41
     4300000: pCube1
     4300002: Office:pCube27
     4300004: OfficeBase1:pCube26
@@ -202,6 +244,12 @@ ModelImporter:
     4300056: OfficeBase1:pCube5
     4300058: OfficeBase1:pCube16
     4300060: OfficeBase1:pCube17
+    4300062: Door:pCube38
+    4300064: Door:pCube39
+    4300066: pCube39
+    4300068: pCube38
+    4300070: pCube40
+    4300072: pCube41
     6400000: Office:pCube26
     6400002: Office:pCube27
     6400004: Office_stairs:pCube1
@@ -232,6 +280,12 @@ ModelImporter:
     6400054: pCube15
     6400056: pCube4
     6400058: pPlane1
+    6400060: Door:pCube38
+    6400062: Door:pCube39
+    6400064: pCube38
+    6400066: pCube39
+    6400068: pCube40
+    6400070: pCube41
     9500000: //RootNode
   materials:
     importMaterials: 1

@@ -8,6 +8,8 @@ public class CameraController : MonoBehaviour {
 
 	public static CameraController instance; 
 
+	public double gameTimeCounter; 
+
 	public Texture2D pointerCursor;
 	public Texture2D handCursor;
 	public Texture2D holdingHandCursor;
@@ -50,12 +52,17 @@ public class CameraController : MonoBehaviour {
 		Cursor.visible = false;
 
 		fpc = GameObject.FindObjectOfType<FirstPersonController> ();
+
+		gameTimeCounter = 0;
 	}
 
 	//--------------------------------------------------------------------------------------------------------//
 
 	// Update is called once per frame
 	void Update () {
+
+		gameTimeCounter += Time.deltaTime;
+
 
 		UpdateCursor ();
 

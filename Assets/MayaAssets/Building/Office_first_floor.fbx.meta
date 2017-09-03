@@ -70,6 +70,20 @@ ModelImporter:
     100124: OfficeBase1:Office:bottom1
     100126: OfficeBase1:pCube1
     100128: OfficeBase1:window
+    100130: door_frame
+    100132: first_window
+    100134: floor
+    100136: floor1
+    100138: glass
+    100140: open_door
+    100142: parquete_right
+    100144: parquete_right1
+    100146: pCube38
+    100148: pCube39
+    100150: second_window
+    100152: walls
+    100154: windows
+    100156: ceiling
     400000: little_stairs
     400002: //RootNode
     400004: pCube1
@@ -135,6 +149,20 @@ ModelImporter:
     400124: OfficeBase1:Office:bottom1
     400126: OfficeBase1:pCube1
     400128: OfficeBase1:window
+    400130: door_frame
+    400132: first_window
+    400134: floor
+    400136: floor1
+    400138: glass
+    400140: open_door
+    400142: parquete_right
+    400144: parquete_right1
+    400146: pCube38
+    400148: pCube39
+    400150: second_window
+    400152: walls
+    400154: windows
+    400156: ceiling
     2300000: little_stairs
     2300002: pCube1
     2300004: stairs
@@ -181,6 +209,15 @@ ModelImporter:
     2300086: pPlane1
     2300088: OfficeBase1:ceiling
     2300090: OfficeBase1:pCube1
+    2300092: door_frame
+    2300094: floor1
+    2300096: glass
+    2300098: parquete_right
+    2300100: parquete_right1
+    2300102: pCube38
+    2300104: pCube39
+    2300106: walls
+    2300108: ceiling
     3300000: little_stairs
     3300002: pCube1
     3300004: stairs
@@ -227,6 +264,15 @@ ModelImporter:
     3300086: pPlane1
     3300088: OfficeBase1:ceiling
     3300090: OfficeBase1:pCube1
+    3300092: door_frame
+    3300094: floor1
+    3300096: glass
+    3300098: parquete_right
+    3300100: parquete_right1
+    3300102: pCube38
+    3300104: pCube39
+    3300106: walls
+    3300108: ceiling
     4300000: stairs
     4300002: little_stairs
     4300004: pCube1
@@ -273,6 +319,15 @@ ModelImporter:
     4300086: OfficeBase:pCube26
     4300088: OfficeBase1:pCube1
     4300090: OfficeBase1:ceiling
+    4300092: door_frame
+    4300094: parquete_right
+    4300096: parquete_right1
+    4300098: walls
+    4300100: floor1
+    4300102: glass
+    4300104: pCube38
+    4300106: pCube39
+    4300108: ceiling
     6400000: //RootNode
     6400002: marble_plate_under_window
     6400004: Office:pCube26
@@ -317,6 +372,15 @@ ModelImporter:
     6400082: pPlane1
     6400084: OfficeBase1:ceiling
     6400086: OfficeBase1:pCube1
+    6400088: door_frame
+    6400090: floor1
+    6400092: glass
+    6400094: parquete_right
+    6400096: parquete_right1
+    6400098: pCube38
+    6400100: pCube39
+    6400102: walls
+    6400104: ceiling
     9500000: //RootNode
   materials:
     importMaterials: 1

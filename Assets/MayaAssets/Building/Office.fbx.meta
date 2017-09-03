@@ -158,6 +158,24 @@ ModelImporter:
     100300: Room_above_office1:window
     100302: Window:Office:bottom1
     100304: Window:window
+    100306: bookcase
+    100308: close_door
+    100310: close_door_frame
+    100312: desk_blade1
+    100314: floor
+    100316: left_door
+    100318: middle_drawer_2
+    100320: open_door
+    100322: open_door_frame
+    100324: parquete
+    100326: parquete_left
+    100328: parquete_right
+    100330: right_door
+    100332: small_stony_stairs
+    100334: stony_plate_under_stairs
+    100336: walls
+    100338: window_frame
+    100340: wood_column
     400000: //RootNode
     400002: pCube1
     400004: persp1
@@ -311,6 +329,24 @@ ModelImporter:
     400300: Room_above_office1:window
     400302: Window:Office:bottom1
     400304: Window:window
+    400306: bookcase
+    400308: close_door
+    400310: close_door_frame
+    400312: desk_blade1
+    400314: floor
+    400316: left_door
+    400318: middle_drawer_2
+    400320: open_door
+    400322: open_door_frame
+    400324: parquete
+    400326: parquete_left
+    400328: parquete_right
+    400330: right_door
+    400332: small_stony_stairs
+    400334: stony_plate_under_stairs
+    400336: walls
+    400338: window_frame
+    400340: wood_column
     2300000: pCube1
     2300002: //RootNode
     2300004: pCube2
@@ -426,6 +462,20 @@ ModelImporter:
     2300224: Room_above_office1:OfficeBase1:pCube1
     2300226: Room_above_office1:OfficeBase:pCube1
     2300228: Room_above_office1:pCube1
+    2300230: close_door_frame
+    2300232: desk_blade1
+    2300234: floor
+    2300236: left_door
+    2300238: middle_drawer_2
+    2300240: open_door_frame
+    2300242: parquete_left
+    2300244: parquete_right
+    2300246: right_door
+    2300248: small_stony_stairs
+    2300250: stony_plate_under_stairs
+    2300252: walls
+    2300254: window_frame
+    2300256: wood_column
     3300000: pCube1
     3300002: //RootNode
     3300004: pCube2
@@ -541,6 +591,20 @@ ModelImporter:
     3300224: Room_above_office1:OfficeBase1:pCube1
     3300226: Room_above_office1:OfficeBase:pCube1
     3300228: Room_above_office1:pCube1
+    3300230: close_door_frame
+    3300232: desk_blade1
+    3300234: floor
+    3300236: left_door
+    3300238: middle_drawer_2
+    3300240: open_door_frame
+    3300242: parquete_left
+    3300244: parquete_right
+    3300246: right_door
+    3300248: small_stony_stairs
+    3300250: stony_plate_under_stairs
+    3300252: walls
+    3300254: window_frame
+    3300256: wood_column
     4300000: pCube1
     4300002: pCube2
     4300004: pCube4
@@ -655,6 +719,20 @@ ModelImporter:
     4300222: Room_above_office1:Office_stairs:pCube1
     4300224: Room_above_office1:OfficeBase:pCube1
     4300226: Room_above_office1:OfficeBase1:pCube1
+    4300228: small_stony_stairs
+    4300230: wood_column
+    4300232: window_frame
+    4300234: floor
+    4300236: walls
+    4300238: parquete_right
+    4300240: parquete_left
+    4300242: stony_plate_under_stairs
+    4300244: open_door_frame
+    4300246: close_door_frame
+    4300248: right_door
+    4300250: middle_drawer_2
+    4300252: left_door
+    4300254: desk_blade1
     6400000: pCube1
     6400002: //RootNode
     6400004: pCube2
@@ -770,6 +848,20 @@ ModelImporter:
     6400224: Room_above_office1:OfficeBase1:pCube1
     6400226: Room_above_office1:OfficeBase:pCube1
     6400228: Room_above_office1:pCube1
+    6400230: close_door_frame
+    6400232: desk_blade1
+    6400234: floor
+    6400236: left_door
+    6400238: middle_drawer_2
+    6400240: open_door_frame
+    6400242: parquete_left
+    6400244: parquete_right
+    6400246: right_door
+    6400248: small_stony_stairs
+    6400250: stony_plate_under_stairs
+    6400252: walls
+    6400254: window_frame
+    6400256: wood_column
     7400000: Take 001
     9500000: //RootNode
   materials:
