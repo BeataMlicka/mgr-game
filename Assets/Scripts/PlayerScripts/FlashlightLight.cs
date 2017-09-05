@@ -108,15 +108,15 @@ public class FlashlightLight : MonoBehaviour {
 
 		if (isActive) {
 			if (batteryLoadingLevel > 75) {
-				GUI.DrawTexture (new Rect (Screen.width - textureSize * 2 - margin, margin, textureSize * 2, textureSize), fullBatteryIcon);
+				GUI.DrawTexture (new Rect (Screen.width - textureSize * 2 - margin, (margin + textureSize), textureSize * 2, textureSize), fullBatteryIcon);
 			} else if (batteryLoadingLevel > 50) {
-				GUI.DrawTexture (new Rect (Screen.width - textureSize * 2 - margin, margin, textureSize * 2, textureSize), threeFourthBatteryIcon);
+				GUI.DrawTexture (new Rect (Screen.width - textureSize * 2 - margin, (margin + textureSize), textureSize * 2, textureSize), threeFourthBatteryIcon);
 			} else if (batteryLoadingLevel > 25) {
-				GUI.DrawTexture (new Rect (Screen.width - textureSize * 2 - margin, margin, textureSize * 2, textureSize), halfBatteryIcon);
+				GUI.DrawTexture (new Rect (Screen.width - textureSize * 2 - margin, (margin + textureSize), textureSize * 2, textureSize), halfBatteryIcon);
 			} else if (batteryLoadingLevel > 0) {
-				GUI.DrawTexture (new Rect (Screen.width - textureSize * 2 - margin, margin, textureSize * 2, textureSize), quarterBatteryIcon);
+				GUI.DrawTexture (new Rect (Screen.width - textureSize * 2 - margin, (margin + textureSize), textureSize * 2, textureSize), quarterBatteryIcon);
 			} else {
-				GUI.DrawTexture(new Rect(Screen.width - textureSize * 2 - margin, margin, textureSize*2, textureSize), emptyBatteryIcon);
+				GUI.DrawTexture(new Rect(Screen.width - textureSize * 2 - margin, (margin + textureSize), textureSize*2, textureSize), emptyBatteryIcon);
 			}
 		}
 	}

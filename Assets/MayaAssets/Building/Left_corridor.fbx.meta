@@ -90,6 +90,25 @@ ModelImporter:
     100164: Room_above_office1:window
     100166: w
     100168: window
+    100170: Furniture:bookcase
+    100172: Furniture:desk
+    100174: hallway_table:desk_blade
+    100176: hallway_table:Furniture:base
+    100178: hallway_table:Furniture:commode
+    100180: hallway_table:Furniture:left_drawer
+    100182: hallway_table:Furniture:right_drawer
+    100184: hallway_table:Office:bottom1
+    100186: base
+    100188: commode
+    100190: desk_blade
+    100192: doors
+    100194: frame_four
+    100196: frame_one
+    100198: frame_three
+    100200: frame_two
+    100202: left_drawer
+    100204: left_drawer_without_handle
+    100206: right_drawer
     400000: //RootNode
     400002: pCube1
     400004: pCube3
@@ -175,6 +194,25 @@ ModelImporter:
     400164: Room_above_office1:window
     400166: w
     400168: window
+    400170: Furniture:bookcase
+    400172: Furniture:desk
+    400174: hallway_table:desk_blade
+    400176: hallway_table:Furniture:base
+    400178: hallway_table:Furniture:commode
+    400180: hallway_table:Furniture:left_drawer
+    400182: hallway_table:Furniture:right_drawer
+    400184: hallway_table:Office:bottom1
+    400186: base
+    400188: commode
+    400190: desk_blade
+    400192: doors
+    400194: frame_four
+    400196: frame_one
+    400198: frame_three
+    400200: frame_two
+    400202: left_drawer
+    400204: left_drawer_without_handle
+    400206: right_drawer
     2300000: //RootNode
     2300002: pCube1
     2300004: pCube3
@@ -225,6 +263,19 @@ ModelImporter:
     2300094: Room_above_office1:OfficeBase1:pCube1
     2300096: Room_above_office1:OfficeBase:pCube1
     2300098: Room_above_office1:pCube1
+    2300100: hallway_table:desk_blade
+    2300102: hallway_table:Furniture:base
+    2300104: hallway_table:Furniture:left_drawer
+    2300106: hallway_table:Furniture:right_drawer
+    2300108: base
+    2300110: desk_blade
+    2300112: frame_four
+    2300114: frame_one
+    2300116: frame_three
+    2300118: frame_two
+    2300120: left_drawer
+    2300122: left_drawer_without_handle
+    2300124: right_drawer
     3300000: //RootNode
     3300002: pCube1
     3300004: pCube3
@@ -275,6 +326,19 @@ ModelImporter:
     3300094: Room_above_office1:OfficeBase1:pCube1
     3300096: Room_above_office1:OfficeBase:pCube1
     3300098: Room_above_office1:pCube1
+    3300100: hallway_table:desk_blade
+    3300102: hallway_table:Furniture:base
+    3300104: hallway_table:Furniture:left_drawer
+    3300106: hallway_table:Furniture:right_drawer
+    3300108: base
+    3300110: desk_blade
+    3300112: frame_four
+    3300114: frame_one
+    3300116: frame_three
+    3300118: frame_two
+    3300120: left_drawer
+    3300122: left_drawer_without_handle
+    3300124: right_drawer
     4300000: left_hall
     4300002: pCube1
     4300004: pCube3
@@ -325,6 +389,19 @@ ModelImporter:
     4300094: pCube54
     4300096: pCube55
     4300098: Room_above_office1:OfficeBase1:pCube1
+    4300100: hallway_table:Furniture:base
+    4300102: hallway_table:desk_blade
+    4300104: hallway_table:Furniture:right_drawer
+    4300106: hallway_table:Furniture:left_drawer
+    4300108: frame_one
+    4300110: frame_two
+    4300112: frame_three
+    4300114: frame_four
+    4300116: base
+    4300118: desk_blade
+    4300120: right_drawer
+    4300122: left_drawer
+    4300124: left_drawer_without_handle
     6400000: //RootNode
     6400002: pCube1
     6400004: pCube3
@@ -375,6 +452,20 @@ ModelImporter:
     6400094: Room_above_office1:OfficeBase1:pCube1
     6400096: Room_above_office1:OfficeBase:pCube1
     6400098: Room_above_office1:pCube1
+    6400100: hallway_table:desk_blade
+    6400102: hallway_table:Furniture:base
+    6400104: hallway_table:Furniture:left_drawer
+    6400106: hallway_table:Furniture:right_drawer
+    6400108: base
+    6400110: desk_blade
+    6400112: frame_four
+    6400114: frame_one
+    6400116: frame_three
+    6400118: frame_two
+    6400120: left_drawer
+    6400122: left_drawer_without_handle
+    6400124: right_drawer
+    7400000: Take 001
     9500000: //RootNode
   materials:
     importMaterials: 1

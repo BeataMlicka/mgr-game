@@ -17,11 +17,11 @@ public class SoundtrackManager : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 
-		Debug.Log ("GTC: " + CameraController.instance.gameTimeCounter);
+		//Debug.Log ("GTC: " + CameraController.instance.gameTimeCounter);
 
 		if (CameraController.instance.gameTimeCounter > 20) {
 
-			Debug.Log ("GC: " + CameraController.instance.gameTimeCounter);
+			//Debug.Log ("GC: " + CameraController.instance.gameTimeCounter);
 			lightRain.enabled = false;
 			storm.enabled = true;
 		} else {

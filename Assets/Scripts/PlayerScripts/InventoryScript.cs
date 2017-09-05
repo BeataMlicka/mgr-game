@@ -47,7 +47,7 @@ public class InventoryScript : MonoBehaviour {
 		openInventory = false;
 		itemsList = new List<ItemAbstract> ();
 
-		buttonSize = (int)(Screen.height * 0.09);
+		buttonSize = (int)(Screen.height * 0.08);
 		buttonMargin = (int)(Screen.height * 0.01);
 	}
 
@@ -65,15 +65,17 @@ public class InventoryScript : MonoBehaviour {
 
 		if (openInventory) {
 
-			int numberOfItems = (Screen.height / (buttonSize + (2 * buttonMargin)));
+			int numberOfItems = (int)(Screen.height / (buttonSize + (2 * buttonMargin)) - 1);
 
 			//jeżeli inwentarz jest pusty, rysujemy puste ikony
 
 			if (itemsList.Count == 0) {
 
 				for (int i = 0; i < numberOfItems; i++) {
-					GUI.Button (new Rect ((buttonMargin),
-						(buttonMargin + buttonMargin * i + buttonSize * i),
+					GUI.Button (new Rect (buttonMargin,
+						(buttonMargin + buttonSize + buttonMargin * i + buttonSize * i), 
+						//(Screen.height - (buttonMargin)), //+ buttonMargin * i + buttonSize * i)),
+						//(buttonMargin + buttonMargin * i + buttonSize * i),
 						buttonSize, buttonSize), emptyItemIcon);
 				}
 
@@ -84,8 +86,7 @@ public class InventoryScript : MonoBehaviour {
 				for (int i = 0; i < itemsList.Count; i++) {
 					
 					if (GUI.Button (new Rect ((buttonMargin),
-						   (buttonMargin + buttonMargin * i + buttonSize * i),
-						   buttonSize, buttonSize), itemsList [i].getItemIcon ())) {
+						(buttonMargin + buttonSize + buttonMargin * i + buttonSize * i), buttonSize, buttonSize), itemsList [i].getItemIcon ())) {
 
 						/*    --------------- kod podjęcia akcji przez przycisk ---------------    */
 						itemsList [i].action ();
@@ -108,13 +109,18 @@ public class InventoryScript : MonoBehaviour {
 				}
 				for(int i = itemsList.Count; i < numberOfItems; i++){
 					GUI.Button (new Rect ((buttonMargin),
-						(buttonMargin + buttonMargin * i + buttonSize * i),
-						buttonSize, buttonSize), emptyItemIcon);
+						(buttonMargin + buttonSize + buttonMargin * i + buttonSize * i), buttonSize, buttonSize), emptyItemIcon);
 				}
 			}
 
-		} 
+		}
+
+		//--------------------------------------------------------------------------------------------------------//
+		//actions
+
 	}
+
+
 
 	//--------------------------------------------------------------------------------------------------------//
 
@@ -142,30 +148,10 @@ public class InventoryScript : MonoBehaviour {
 
 			//Debug.Log ("ITEM NAME: " + item.getItemName() + " --- " + "AMOUNT: " + item.itemCounter);
 		}
-
-		/*
-		if (index > -1) {
-			itemsCounter++;
-		} else {
-
-			itemsList.Add (item);
-			itemsInInventory++;
-			int[] tmp = new int[itemsInInventory];
-
-			for (int i = 0; i < itemsCounter.Length; i++) {
-				tmp [i] = itemsCounter [i];
-			}
-
-			tmp [itemsInInventory - 1] = 1;
-			itemsCounter = new int[itemsInInventory];
-			itemsCounter = tmp;
-		}
-
-
-		itemsList.Add (item);
-		Debug.Log ("FIRST: " + itemsList[0]);
-		//Debug.Log ("GETTER: " + item);
-		*/
 	}
+
+	//------------------------------------------------------------------------------------------------------//
+	//objects interactions scripts
+
 
 }
