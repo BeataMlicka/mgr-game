@@ -117,6 +117,13 @@ ModelImporter:
     100218: second_door_frame
     100220: third_door_frame
     100222: walls
+    100224: base
+    100226: desk
+    100228: drawer
+    100230: white_table
+    100232: deers_paintin:pCube1
+    100234: pPlane3
+    100236: woman_with_skeleton_painting:pCube1
     400000: balustrade
     400002: Bedroom:balustrade
     400004: Bedroom:group1
@@ -229,6 +236,13 @@ ModelImporter:
     400218: second_door_frame
     400220: third_door_frame
     400222: walls
+    400224: base
+    400226: desk
+    400228: drawer
+    400230: white_table
+    400232: deers_paintin:pCube1
+    400234: pPlane3
+    400236: woman_with_skeleton_painting:pCube1
     2300000: Bedroom:Office_stairs:pCube1
     2300002: Bedroom:OfficeBase1:pCube1
     2300004: Bedroom:OfficeBase1:pCube5
@@ -265,6 +279,12 @@ ModelImporter:
     2300066: second_door_frame
     2300068: third_door_frame
     2300070: walls
+    2300072: base
+    2300074: desk
+    2300076: drawer
+    2300078: deers_paintin:pCube1
+    2300080: pPlane3
+    2300082: woman_with_skeleton_painting:pCube1
     3300000: Bedroom:Office_stairs:pCube1
     3300002: Bedroom:OfficeBase1:pCube1
     3300004: Bedroom:OfficeBase1:pCube5
@@ -301,6 +321,12 @@ ModelImporter:
     3300066: second_door_frame
     3300068: third_door_frame
     3300070: walls
+    3300072: base
+    3300074: desk
+    3300076: drawer
+    3300078: deers_paintin:pCube1
+    3300080: pPlane3
+    3300082: woman_with_skeleton_painting:pCube1
     4300000: pCube1
     4300002: Office_stairs:pCube1
     4300004: OfficeBase:pCube1
@@ -337,6 +363,12 @@ ModelImporter:
     4300066: third_door_frame
     4300068: Door:pCube38
     4300070: Door:pCube39
+    4300072: drawer
+    4300074: desk
+    4300076: base
+    4300078: pPlane3
+    4300080: woman_with_skeleton_painting:pCube1
+    4300082: deers_paintin:pCube1
     6400000: Bedroom:Office_stairs:pCube1
     6400002: Bedroom:OfficeBase1:pCube1
     6400004: Bedroom:OfficeBase1:pCube5
@@ -373,6 +405,12 @@ ModelImporter:
     6400066: second_door_frame
     6400068: third_door_frame
     6400070: walls
+    6400072: base
+    6400074: desk
+    6400076: drawer
+    6400078: deers_paintin:pCube1
+    6400080: pPlane3
+    6400082: woman_with_skeleton_painting:pCube1
     9500000: //RootNode
   materials:
     importMaterials: 1

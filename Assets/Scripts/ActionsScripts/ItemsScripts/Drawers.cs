@@ -83,7 +83,6 @@ public class Drawers : ObjectsAbstract {
 	public void waitFunction(double waitTime){
 
 		for (double time = waitTime; waitTime > 0;) {
-
 			Debug.Log ("");
 			waitTime -= Time.deltaTime;
 		}

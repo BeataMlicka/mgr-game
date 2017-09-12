@@ -7,10 +7,10 @@ TagManager:
   - MainHall
   - LeftCorridor
   - Office
-  - OfficeRoom
   - gameplayItem
   - white_handle
   - drawer_without_handle
+  - office
   layers:
   - Default
   - TransparentFX

@@ -4,14 +4,11 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour {
 
-	//publiczna zmienna statyczna, króra jest punktem dostępu do zawartości klasy
+	//publiczna zmienna statyczna, która jest punktem dostępu do zawartości klasy
 	public static GameManager instance;
 
 	//kind of gameplay
 	public string currentGameVersion = "Buka";
-
-	//full game time
-	private float fullGameTime;
 
 	//time counting var
 	private float counter = 0;
