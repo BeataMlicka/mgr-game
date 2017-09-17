@@ -18,7 +18,7 @@ public class MenuManager : MonoBehaviour {
 	public Toggle affectiveGameToggle;
 
 	//current game version
-	public string currentGameVersion; 
+	private string currentGameVersion; 
 
 
 	//--------------------------------------------------------------------------------------------------------//
@@ -70,15 +70,15 @@ public class MenuManager : MonoBehaviour {
 	void ActiveToggle(){
 
 		if (standardGameToggle.isOn) {
-			//Debug.Log ("STANDARD TOGGLE ACTIVE");
-			currentGameVersion = "StandardGame";
-			GameManager.instance.setCurrentGameVersion(currentGameVersion);
-			//Debug.Log ("A: " + GameManager.instance.getCurrentGameVersion());
+			
+			this.currentGameVersion = "StandardGame";
+			GameStateManager.instance.setCurrentGameVersion(currentGameVersion);
+			//Debug.Log ("A: " + GameStateManager.instance.getCurrentGameVersion());
 		} else if (affectiveGameToggle.isOn) {
-			//Debug.Log ("AFFECTIVE TOGGLE ACTIVE");
-			currentGameVersion = "AffectiveGame";
-			GameManager.instance.setCurrentGameVersion(currentGameVersion);
-			//Debug.Log ("B: " + GameManager.instance.getCurrentGameVersion());
+			
+			this.currentGameVersion = "AffectiveGame";
+			GameStateManager.instance.setCurrentGameVersion(currentGameVersion);
+			//Debug.Log ("B: " + GameStateManager.instance.getCurrentGameVersion());
 		}
 	}
 		

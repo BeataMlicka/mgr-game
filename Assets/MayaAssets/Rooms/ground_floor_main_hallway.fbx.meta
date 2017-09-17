@@ -72,6 +72,17 @@ ModelImporter:
     100128: pCube68
     100130: pCube69
     100132: pPlane1
+    100134: office:open_door
+    100136: office:pCube38
+    100138: office:pCube39
+    100140: dining_room_door
+    100142: first_door
+    100144: office_door
+    100146: LionLowPoly3DModel:LowPoly002
+    100148: newspapere:pPlane1
+    100150: newspapere:pPlane2
+    100152: newspapere:pPlane3
+    100154: pPlane6
     400000: base
     400002: book_22
     400004: books:book_20
@@ -139,6 +150,17 @@ ModelImporter:
     400128: pCube68
     400130: pCube69
     400132: pPlane1
+    400134: office:open_door
+    400136: office:pCube38
+    400138: office:pCube39
+    400140: dining_room_door
+    400142: first_door
+    400144: office_door
+    400146: LionLowPoly3DModel:LowPoly002
+    400148: newspapere:pPlane1
+    400150: newspapere:pPlane2
+    400152: newspapere:pPlane3
+    400154: pPlane6
     2300000: base
     2300002: book_22
     2300004: books:book_20
@@ -196,6 +218,13 @@ ModelImporter:
     2300108: pCube68
     2300110: pCube69
     2300112: pPlane1
+    2300114: office:pCube38
+    2300116: office:pCube39
+    2300118: LionLowPoly3DModel:LowPoly002
+    2300120: newspapere:pPlane1
+    2300122: newspapere:pPlane2
+    2300124: newspapere:pPlane3
+    2300126: pPlane6
     3300000: base
     3300002: book_22
     3300004: books:book_20
@@ -253,6 +282,13 @@ ModelImporter:
     3300108: pCube68
     3300110: pCube69
     3300112: pPlane1
+    3300114: office:pCube38
+    3300116: office:pCube39
+    3300118: LionLowPoly3DModel:LowPoly002
+    3300120: newspapere:pPlane1
+    3300122: newspapere:pPlane2
+    3300124: newspapere:pPlane3
+    3300126: pPlane6
     4300000: pCube47
     4300002: pCube49
     4300004: pCube50
@@ -310,6 +346,13 @@ ModelImporter:
     4300108: pCube1
     4300110: pPlane1
     4300112: pCube3
+    4300114: office:pCube38
+    4300116: office:pCube39
+    4300118: LionLowPoly3DModel:LowPoly002
+    4300120: newspapere:pPlane1
+    4300122: newspapere:pPlane2
+    4300124: newspapere:pPlane3
+    4300126: pPlane6
     6400000: base
     6400002: book_22
     6400004: books:book_20
@@ -367,6 +410,13 @@ ModelImporter:
     6400108: pCube68
     6400110: pCube69
     6400112: pPlane1
+    6400114: office:pCube38
+    6400116: office:pCube39
+    6400118: LionLowPoly3DModel:LowPoly002
+    6400120: newspapere:pPlane1
+    6400122: newspapere:pPlane2
+    6400124: newspapere:pPlane3
+    6400126: pPlane6
     7400000: Take 001
     9500000: //RootNode
   materials:

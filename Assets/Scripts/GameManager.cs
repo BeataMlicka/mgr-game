@@ -8,21 +8,13 @@ public class GameManager : MonoBehaviour {
 	public static GameManager instance;
 
 	//kind of gameplay
-	public string currentGameVersion = "Buka";
+	public string currentGameVersion;
 
-	//time counting var
-	private float counter = 0;
-	private int time = 1;
-	private int actionCounter = 3;
+	public float fullGameTime;
+	public bool actionFlag;
 
-	//sensors objects
-	private GalvanicSkinResponse gsr;
-	private Pulse pulse;
-	//private int gsrInput; //zmienna właściwa do arduino
-	//private int pulseInput; //zmienna właściwa do arduino
-	//private Arduino arduino; 
-	private int gsrTestInput; //zmienna pomocnicza
-	private int pulseTestInput; //zmienna pomocnicza
+	private AffectiveGameManager affectiveGameManager;
+	private StoryGameManager storyGameManager;
 
 	//--------------------------------------------------------------------------------------------------------//
 
@@ -40,43 +32,29 @@ public class GameManager : MonoBehaviour {
 	}
 
 	//--------------------------------------------------------------------------------------------------------//
+	void Start(){
+		this.fullGameTime = 0;
+		currentGameVersion = "";
 
-	// Use this for initialization
-	void Start () {
-		gsr = gameObject.GetComponent<GalvanicSkinResponse>();
-		pulse = gameObject.GetComponent<Pulse>();
-		//arduino = gameObject.GetComponent<Arduino>;
+		actionFlag = false;
+
+		affectiveGameManager = gameObject.GetComponent<AffectiveGameManager>();
+		storyGameManager = gameObject.GetComponent<StoryGameManager>();
 	}
 
 	//--------------------------------------------------------------------------------------------------------//
 
-	void FixedUpdate(){
+	void Update(){
 
-		if (counter < time) {
-			counter += Time.deltaTime;
+		//Debug.Log (fullGameTime);
+		this.fullGameTime += Time.deltaTime;
 
-		} else {
-
-			//example pulse generator 
-			gsrTestInput = Random.Range(450, 650); //zmienna pomocnicza
-			pulseTestInput = Random.Range (40, 110); //zmienna pomocnicza
-			Debug.Log ("gsrTest: " + gsrTestInput); //zmienna pomocnicza
-			Debug.Log ("pulseTest: " + pulseTestInput); //zmienna pomocnicza
-			pulse.addInput(pulseTestInput);
-			gsr.addInput(gsrTestInput);
-
-			if (pulse.getResultsTableSize() >= actionCounter && gsr.getResultsTableSize() >= actionCounter) {
-				pulse.checkingResults ();
-				gsr.checkingResults ();
-				actionCounter += 3;
-				Debug.Log ("WYNIKI P: " + pulse.checkingResults());
-				Debug.Log ("WYNIKI G: " + pulse.checkingResults());
-
-			}
-
-			counter = 0;
+		if (actionFlag) {
+			affectiveGameManager.action ();
+			actionFlag = false;
 		}
 	}
+		
 
 	//--------------------------------------------------------------------------------------------------------//
 
@@ -85,7 +63,15 @@ public class GameManager : MonoBehaviour {
 		this.currentGameVersion = gameVersion;
 	}
 
+	//getters
+
 	public string getCurrentGameVersion(){
 		return this.currentGameVersion;
 	}
+
+	public float getFullGameTime(){
+		return this.fullGameTime;
+	}
+
 }
+

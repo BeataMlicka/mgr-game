@@ -1,0 +1,214 @@
+fileFormatVersion: 2
+guid: 753abe3d4367b674db708bed85b4b7f2
+timeCreated: 1505603113
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: ceiling
+    100002: close_door
+    100004: close_door1
+    100006: close_door_frame
+    100008: close_door_frame1
+    100010: close_door_frame2
+    100012: dining_room:doors
+    100014: dining_room:pCube68
+    100016: dining_room:pCube69
+    100018: floor
+    100020: office1:close_door
+    100022: office1:close_door_frame
+    100024: office1:dors_frames
+    100026: office1:pCube10
+    100028: office1:pCube11
+    100030: office1:pCube12
+    100032: office1:pCube13
+    100034: office1:pCube14
+    100036: office1:pCube15
+    100038: office1:pCube35
+    100040: office1:pCube36
+    100042: office1:pPlane1
+    100044: office1:stony_stairs
+    100046: office1:walls
+    100048: office1:window
+    100050: office1:window_frame
+    100052: pCube35
+    100054: pCube35 1
+    100056: pCube36
+    100058: pCube36 1
+    100060: //RootNode
+    100062: wall
+    400000: ceiling
+    400002: close_door
+    400004: close_door1
+    400006: close_door_frame
+    400008: close_door_frame1
+    400010: close_door_frame2
+    400012: dining_room:doors
+    400014: dining_room:pCube68
+    400016: dining_room:pCube69
+    400018: floor
+    400020: office1:close_door
+    400022: office1:close_door_frame
+    400024: office1:dors_frames
+    400026: office1:pCube10
+    400028: office1:pCube11
+    400030: office1:pCube12
+    400032: office1:pCube13
+    400034: office1:pCube14
+    400036: office1:pCube15
+    400038: office1:pCube35
+    400040: office1:pCube36
+    400042: office1:pPlane1
+    400044: office1:stony_stairs
+    400046: office1:walls
+    400048: office1:window
+    400050: office1:window_frame
+    400052: pCube35
+    400054: pCube35 1
+    400056: pCube36
+    400058: pCube36 1
+    400060: //RootNode
+    400062: wall
+    2300000: ceiling
+    2300002: close_door_frame
+    2300004: close_door_frame1
+    2300006: close_door_frame2
+    2300008: dining_room:pCube68
+    2300010: dining_room:pCube69
+    2300012: floor
+    2300014: office1:close_door_frame
+    2300016: office1:pCube10
+    2300018: office1:pCube11
+    2300020: office1:pCube12
+    2300022: office1:pCube13
+    2300024: office1:pCube14
+    2300026: office1:pCube15
+    2300028: office1:pCube35
+    2300030: office1:pCube36
+    2300032: office1:pPlane1
+    2300034: office1:stony_stairs
+    2300036: office1:window_frame
+    2300038: pCube35
+    2300040: pCube35 1
+    2300042: pCube36
+    2300044: pCube36 1
+    2300046: wall
+    3300000: ceiling
+    3300002: close_door_frame
+    3300004: close_door_frame1
+    3300006: close_door_frame2
+    3300008: dining_room:pCube68
+    3300010: dining_room:pCube69
+    3300012: floor
+    3300014: office1:close_door_frame
+    3300016: office1:pCube10
+    3300018: office1:pCube11
+    3300020: office1:pCube12
+    3300022: office1:pCube13
+    3300024: office1:pCube14
+    3300026: office1:pCube15
+    3300028: office1:pCube35
+    3300030: office1:pCube36
+    3300032: office1:pPlane1
+    3300034: office1:stony_stairs
+    3300036: office1:window_frame
+    3300038: pCube35
+    3300040: pCube35 1
+    3300042: pCube36
+    3300044: pCube36 1
+    3300046: wall
+    4300000: dining_room:pCube68
+    4300002: dining_room:pCube69
+    4300004: office1:stony_stairs
+    4300006: office1:pCube15
+    4300008: office1:pCube12
+    4300010: office1:pCube10
+    4300012: office1:pPlane1
+    4300014: office1:pCube11
+    4300016: office1:pCube14
+    4300018: office1:pCube13
+    4300020: office1:window_frame
+    4300022: office1:pCube35
+    4300024: office1:pCube36
+    4300026: pCube35
+    4300028: pCube36
+    4300030: pCube35
+    4300032: pCube36
+    4300034: floor
+    4300036: wall
+    4300038: ceiling
+    4300040: office1:close_door_frame
+    4300042: close_door_frame
+    4300044: close_door_frame1
+    4300046: close_door_frame2
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

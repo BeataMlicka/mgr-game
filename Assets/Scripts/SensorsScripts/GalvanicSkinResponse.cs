@@ -2,105 +2,71 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class GalvanicSkinResponse : MonoBehaviour {
+public class GalvanicSkinResponse : SensorAbstract {
 
-	private List<int> grsValues;
-	private int averageTimeCounter = 10;
-	private int timeStep = 10;
-	private float comparativeAverage;
-	private List<string> results;
-	public int resultsCounter = 0;
 
 	void Start(){
 
-		grsValues = new List<int> ();
-		results = new List<string>();
+		inputData = new List<float>();
+		averages = new List<float>();
 	}
 
-	//getters and setters
-	public void setAverageTimeCounter(int timeStep){
-		this.averageTimeCounter += timeStep;
+
+	/// --------------------------------------------------------------------------------------------------------------------------------
+	//metoda dodająca odczyt do listy
+
+	public override void addInput(float newInput){
+
+		inputData.Add (newInput); //jest ok
+		this.register++; //jest ok
 	}
 
-	public void setComparativeAverages(float average){
-		this.comparativeAverage = average;
-	}
-
-	public float getComparativeAverage(){
-		return this.comparativeAverage;
-	}
-
-	public int getResultsTableSize(){
-		return results.Count;
-	}
-
-	//method adding new input to list
-	public void addInput(int gsrInput){
-
-		grsValues.Add (gsrInput);
-
-		if(grsValues.Count >= averageTimeCounter){
-			//wywołaj metodę liczącą średnią
-			average();
-			setAverageTimeCounter(timeStep);
-		}
-	}
-
-	//method calculating average 
-	public void average(){
+	/// --------------------------------------------------------------------------------------------------------------------------------
+	//metoda obliczająca średnią, z pomiarów pobranych od momentu obliczenia ostatniej średniej
+	public override void calculateAverage(){
 
 		float sum = 0;
 		float currentAverage = 0;
-		float lastAverage = 0;
 
-		for (int i = this.grsValues.Count; i > this.grsValues.Count - timeStep; i--){ 
-			Debug.Log("Jestem tutaj :)");
-			sum += this.grsValues [i-1];
-			Debug.Log ("suma: " + sum);
+		//Debug.Log ("reg - " + register); //63
+		//Debug.Log ("Table size = " + this.inputData.Count); //63
+
+		int size = this.inputData.Count - 1;
+
+		for (int i = size; i > size - register; i--){ 
+
+			sum += this.inputData [i];
 		}
 
-		currentAverage = sum / 10;
+		//Debug.Log ("Suma = " + sum);
+
+		currentAverage = sum / register;
 		//Debug.Log ("Average: " + average);
+		this.averages.Add(currentAverage);
 
-		//metoda porównująca średnią
-		compareAverages(currentAverage);
-		setComparativeAverages(currentAverage);
+		Debug.Log ("G aver = " + currentAverage);
+
+		register = 0;
 	}
 
-	//method comareing averages
-	public void compareAverages(float currentAverage){
 
-		if (currentAverage > getComparativeAverage ()) {
-			this.results.Add("higher");
-			resultsCounter++;
-			Debug.Log ("higher");
+	/// --------------------------------------------------------------------------------------------------------------------------------
+	//method porównująca ostanie średnie
+	public override bool compareAverage(){
 
-		} else if (currentAverage < getComparativeAverage ()) {
-			this.results.Add("lower");
-			resultsCounter++;
+		int size = this.averages.Count;
+
+		Debug.Log ("G: 1 - " + this.averages[size-1] + " --- " + this.averages[size-2] + " --- " + this.averages[size-3]);
+
+		if ((this.averages [size - 1] < this.averages [size - 2]) && (this.averages [size - 2] < this.averages [size - 3])) {
+
 			Debug.Log ("lower");
+			return true;
 
 		} else {
-			this.results.Add("equal");
-			resultsCounter++;
-			Debug.Log ("equal");
-
+			Debug.Log ("higher or equal");
+			return false;
 		}
+
 	}
-
-	//method checking results
-	public string checkingResults(){
-
-		if (this.results [this.results.Count - 3] == "lower" && 
-			this.results [this.results.Count - 2] == "lower" && this.results [this.results.Count - 1] == "lower") {
-			return "action";
-		} else if (this.results [this.results.Count - 3] == "higher" && 
-			this.results [this.results.Count - 2] == "higher" && this.results [this.results.Count - 1] == "higher") {
-			return "wait";
-		} else {
-			return "wait";
-		}
-	}
-
-
 }

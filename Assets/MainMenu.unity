@@ -160,7 +160,6 @@ MonoBehaviour:
   volumeSilder: {fileID: 0}
   standardGameToggle: {fileID: 1734768797}
   affectiveGameToggle: {fileID: 348685362}
-  currentGameVersion: 
 --- !u!1 &130872180
 GameObject:
   m_ObjectHideFlags: 0
@@ -3471,6 +3470,7 @@ GameObject:
   - component: {fileID: 1955154993}
   - component: {fileID: 1955154996}
   - component: {fileID: 1955154995}
+  - component: {fileID: 1955154997}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -3527,6 +3527,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   resultsCounter: 0
+--- !u!114 &1955154997
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1955154992}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2451eb6294220774dbd1e325f4e22a90, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2078035634
 GameObject:
   m_ObjectHideFlags: 0
