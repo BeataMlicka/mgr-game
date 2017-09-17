@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class DoorsTrigger : MonoBehaviour {
 
+	/*
 	private Animator animator;
 	public GameObject door;
 	public bool openDoor;
@@ -47,6 +48,6 @@ public class DoorsTrigger : MonoBehaviour {
 	void OnTriggerExit(Collider other){
 
 	}
-		
+		*/
 
 }

@@ -18,6 +18,7 @@ public class Flashlight : ItemAbstract {
 		if (objectIsSelected && Input.GetMouseButtonDown (0)) {
 			setIcon (flashlightIcon);
 			InventoryScript.instance.addItem (this);
+			InventoryScript.instance.flashlightIsInside = true;
 			Destroy (gameObject);
 		}
 	}

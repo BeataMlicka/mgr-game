@@ -26,6 +26,7 @@ public class InventoryScript : MonoBehaviour {
 
 	private PlayerData playerData;
 
+	public bool flashlightIsInside;
 
 	//--------------------------------------------------------------------------------------------------------//
 
@@ -49,6 +50,7 @@ public class InventoryScript : MonoBehaviour {
 
 		buttonSize = (int)(Screen.height * 0.08);
 		buttonMargin = (int)(Screen.height * 0.01);
+		flashlightIsInside = false;
 	}
 
 	//--------------------------------------------------------------------------------------------------------//

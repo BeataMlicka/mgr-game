@@ -1,0 +1,504 @@
+akcja: 0 - time: 4.555697
+pulse: 102 --- gsr: 11
+
+akcja: 0 - time: 5.59796
+pulse: 69 --- gsr: 32
+
+akcja: 0 - time: 6.631666
+pulse: 93 --- gsr: 30
+
+akcja: 0 - time: 7.662342
+pulse: 111 --- gsr: 20
+
+akcja: 0 - time: 8.689466
+pulse: 128 --- gsr: 41
+
+akcja: 0 - time: 8.722923
+pulse: 85 --- gsr: 16
+
+akcja: 0 - time: 9.752463
+pulse: 60 --- gsr: 14
+
+akcja: 0 - time: 10.78086
+pulse: 98 --- gsr: 11
+
+akcja: 0 - time: 11.80593
+pulse: 89 --- gsr: 7
+
+akcja: 0 - time: 12.83549
+pulse: 62 --- gsr: 24
+
+akcja: 0 - time: 4.370275
+pulse: 123 --- gsr: 41
+
+akcja: 0 - time: 5.397562
+pulse: 125 --- gsr: 16
+
+akcja: 0 - time: 6.4276
+pulse: 97 --- gsr: 29
+
+akcja: 0 - time: 7.457273
+pulse: 66 --- gsr: 2
+
+akcja: 0 - time: 8.488253
+pulse: 99 --- gsr: 9
+
+akcja: 0 - time: 14.45902
+pulse: 122 --- gsr: 46
+
+akcja: 0 - time: 15.52036
+pulse: 95 --- gsr: 47
+
+akcja: 0 - time: 16.58002
+pulse: 79 --- gsr: 24
+
+akcja: 0 - time: 6.850968
+pulse: 83 --- gsr: 47
+
+akcja: 0 - time: 7.887667
+pulse: 60 --- gsr: 3
+
+akcja: 0 - time: 8.915386
+pulse: 125 --- gsr: 38
+
+akcja: 0 - time: 9.937054
+pulse: 78 --- gsr: 42
+
+akcja: 0 - time: 10.99774
+pulse: 80 --- gsr: 14
+
+akcja: 0 - time: 3.582476
+pulse: 73 --- gsr: 30
+
+akcja: 0 - time: 4.631039
+pulse: 82 --- gsr: 48
+
+akcja: 0 - time: 5.657401
+pulse: 82 --- gsr: 46
+
+akcja: 0 - time: 6.706154
+pulse: 127 --- gsr: 14
+
+akcja: 0 - time: 7.727951
+pulse: 83 --- gsr: 4
+
+akcja: 0 - time: 7.667804
+pulse: 116 --- gsr: 44
+
+akcja: 0 - time: 8.726769
+pulse: 87 --- gsr: 21
+
+akcja: 0 - time: 9.766306
+pulse: 81 --- gsr: 0
+
+akcja: 0 - time: 10.84897
+pulse: 104 --- gsr: 5
+
+akcja: 0 - time: 11.89919
+pulse: 63 --- gsr: 27
+
+akcja: 0 - time: 5.018861
+pulse: 123 --- gsr: 35
+
+akcja: 0 - time: 6.06823
+pulse: 110 --- gsr: 24
+
+akcja: 0 - time: 7.101149
+pulse: 68 --- gsr: 1
+
+akcja: 0 - time: 8.134318
+pulse: 85 --- gsr: 23
+
+akcja: 0 - time: 9.170016
+pulse: 88 --- gsr: 24
+
+akcja: 1 - time: 77.62795
+pulse: 121 --- gsr: 43
+
+akcja: 1 - time: 78.66119
+pulse: 70 --- gsr: 26
+
+akcja: 1 - time: 79.6937
+pulse: 69 --- gsr: 48
+
+akcja: 1 - time: 80.71636
+pulse: 90 --- gsr: 19
+
+akcja: 1 - time: 81.78999
+pulse: 111 --- gsr: 8
+
+akcja: 1 - time: 82.92532
+pulse: 66 --- gsr: 10
+
+akcja: 1 - time: 84.10886
+pulse: 127 --- gsr: 24
+
+akcja: 1 - time: 85.31008
+pulse: 101 --- gsr: 11
+
+akcja: 1 - time: 86.44869
+pulse: 134 --- gsr: 1
+
+akcja: 1 - time: 87.5854
+pulse: 73 --- gsr: 8
+
+akcja: 1 - time: 88.80796
+pulse: 101 --- gsr: 0
+
+akcja: 1 - time: 89.94564
+pulse: 91 --- gsr: 1
+
+akcja: 1 - time: 91.0856
+pulse: 139 --- gsr: 14
+
+akcja: 1 - time: 92.32586
+pulse: 85 --- gsr: 11
+
+akcja: 0 - time: 3.826804
+pulse: 116 --- gsr: 38
+
+akcja: 0 - time: 4.880994
+pulse: 100 --- gsr: 31
+
+akcja: 0 - time: 5.919059
+pulse: 99 --- gsr: 31
+
+akcja: 0 - time: 6.963275
+pulse: 120 --- gsr: 9
+
+akcja: 0 - time: 8.000378
+pulse: 74 --- gsr: 42
+
+akcja: 1 - time: 17.02948
+pulse: 85 --- gsr: 42
+
+akcja: 1 - time: 18.06575
+pulse: 131 --- gsr: 27
+
+akcja: 1 - time: 19.09324
+pulse: 86 --- gsr: 7
+
+akcja: 1 - time: 20.13267
+pulse: 77 --- gsr: 11
+
+akcja: 1 - time: 21.18414
+pulse: 131 --- gsr: 13
+
+akcja: 1 - time: 22.2735
+pulse: 91 --- gsr: 47
+
+akcja: 0 - time: 3.59299
+pulse: 65 --- gsr: 10
+
+akcja: 0 - time: 4.671106
+pulse: 91 --- gsr: 2
+
+akcja: 0 - time: 5.778733
+pulse: 115 --- gsr: 22
+
+akcja: 0 - time: 6.850264
+pulse: 60 --- gsr: 30
+
+akcja: 0 - time: 7.935189
+pulse: 133 --- gsr: 16
+
+akcja: 1 - time: 15.75471
+pulse: 85 --- gsr: 39
+
+akcja: 1 - time: 16.79209
+pulse: 131 --- gsr: 22
+
+akcja: 1 - time: 17.82469
+pulse: 117 --- gsr: 8
+
+akcja: 1 - time: 18.86504
+pulse: 132 --- gsr: 43
+
+akcja: 1 - time: 19.94098
+pulse: 130 --- gsr: 47
+
+akcja: 1 - time: 21.02651
+pulse: 115 --- gsr: 15
+
+akcja: 1 - time: 22.14223
+pulse: 138 --- gsr: 18
+
+akcja: 0 - time: 4.510645
+pulse: 94 --- gsr: 11
+
+akcja: 0 - time: 5.591342
+pulse: 114 --- gsr: 11
+
+akcja: 0 - time: 6.66728
+pulse: 85 --- gsr: 24
+
+akcja: 0 - time: 7.744393
+pulse: 119 --- gsr: 11
+
+akcja: 0 - time: 8.852385
+pulse: 126 --- gsr: 29
+
+akcja: 1 - time: 16.57824
+pulse: 124 --- gsr: 48
+
+akcja: 1 - time: 17.60227
+pulse: 115 --- gsr: 3
+
+akcja: 1 - time: 18.65138
+pulse: 68 --- gsr: 33
+
+akcja: 1 - time: 19.74898
+pulse: 102 --- gsr: 5
+
+akcja: 1 - time: 20.868
+pulse: 133 --- gsr: 37
+
+akcja: 1 - time: 21.93656
+pulse: 88 --- gsr: 47
+
+akcja: 1 - time: 23.07005
+pulse: 108 --- gsr: 24
+
+akcja: 1 - time: 24.20907
+pulse: 70 --- gsr: 11
+
+akcja: 1 - time: 25.32237
+pulse: 81 --- gsr: 14
+
+akcja: 1 - time: 26.524
+pulse: 116 --- gsr: 21
+
+akcja: 1 - time: 27.71071
+pulse: 102 --- gsr: 5
+
+akcja: 1 - time: 28.8713
+pulse: 100 --- gsr: 0
+
+akcja: 1 - time: 30.01638
+pulse: 95 --- gsr: 43
+
+akcja: 0 - time: 3.489792
+pulse: 83 --- gsr: 17
+
+akcja: 0 - time: 4.569426
+pulse: 98 --- gsr: 17
+
+akcja: 0 - time: 5.673131
+pulse: 91 --- gsr: 22
+
+akcja: 0 - time: 6.758442
+pulse: 108 --- gsr: 46
+
+akcja: 0 - time: 7.856768
+pulse: 73 --- gsr: 25
+
+akcja: 1 - time: 15.50211
+pulse: 101 --- gsr: 44
+
+akcja: 1 - time: 16.52821
+pulse: 137 --- gsr: 0
+
+akcja: 1 - time: 17.55183
+pulse: 87 --- gsr: 2
+
+akcja: 1 - time: 18.58599
+pulse: 102 --- gsr: 41
+
+akcja: 1 - time: 19.62139
+pulse: 61 --- gsr: 22
+
+akcja: 1 - time: 20.65586
+pulse: 117 --- gsr: 36
+
+akcja: 1 - time: 21.69917
+pulse: 104 --- gsr: 32
+
+akcja: 1 - time: 22.72584
+pulse: 81 --- gsr: 13
+
+akcja: 1 - time: 23.74426
+pulse: 97 --- gsr: 35
+
+akcja: 1 - time: 24.76915
+pulse: 68 --- gsr: 5
+
+akcja: 1 - time: 25.82018
+pulse: 104 --- gsr: 6
+
+akcja: 1 - time: 26.86311
+pulse: 106 --- gsr: 31
+
+akcja: 0 - time: 3.549919
+pulse: 129 --- gsr: 49
+
+akcja: 0 - time: 4.598086
+pulse: 75 --- gsr: 30
+
+akcja: 0 - time: 5.63131
+pulse: 84 --- gsr: 13
+
+akcja: 0 - time: 6.669563
+pulse: 88 --- gsr: 43
+
+akcja: 0 - time: 7.695688
+pulse: 113 --- gsr: 28
+
+akcja: 1 - time: 15.40393
+pulse: 77 --- gsr: 34
+
+akcja: 1 - time: 16.4363
+pulse: 67 --- gsr: 19
+
+akcja: 1 - time: 17.45788
+pulse: 94 --- gsr: 22
+
+akcja: 1 - time: 18.47916
+pulse: 105 --- gsr: 23
+
+akcja: 1 - time: 19.54282
+pulse: 102 --- gsr: 40
+
+akcja: 1 - time: 20.66221
+pulse: 115 --- gsr: 14
+
+akcja: 1 - time: 21.79608
+pulse: 62 --- gsr: 36
+
+akcja: 1 - time: 22.88756
+pulse: 90 --- gsr: 15
+
+akcja: 1 - time: 23.97669
+pulse: 82 --- gsr: 27
+
+akcja: 1 - time: 25.12349
+pulse: 64 --- gsr: 35
+
+akcja: 1 - time: 26.25143
+pulse: 115 --- gsr: 10
+
+akcja: 1 - time: 27.49418
+pulse: 105 --- gsr: 49
+
+akcja: 0 - time: 3.352987
+pulse: 116 --- gsr: 6
+
+akcja: 0 - time: 4.439765
+pulse: 63 --- gsr: 31
+
+akcja: 0 - time: 5.490124
+pulse: 93 --- gsr: 2
+
+akcja: 0 - time: 6.565781
+pulse: 95 --- gsr: 1
+
+akcja: 0 - time: 7.639246
+pulse: 71 --- gsr: 29
+
+akcja: 1 - time: 15.30868
+pulse: 84 --- gsr: 16
+
+akcja: 1 - time: 16.36117
+pulse: 129 --- gsr: 27
+
+akcja: 1 - time: 17.41362
+pulse: 130 --- gsr: 33
+
+akcja: 1 - time: 18.49778
+pulse: 98 --- gsr: 43
+
+akcja: 1 - time: 19.54242
+pulse: 127 --- gsr: 18
+
+akcja: 1 - time: 20.65597
+pulse: 103 --- gsr: 24
+
+akcja: 1 - time: 21.75684
+pulse: 97 --- gsr: 8
+
+akcja: 1 - time: 22.82654
+pulse: 131 --- gsr: 2
+
+akcja: 1 - time: 23.93875
+pulse: 115 --- gsr: 29
+
+akcja: 1 - time: 25.02049
+pulse: 90 --- gsr: 39
+
+akcja: 1 - time: 26.23831
+pulse: 139 --- gsr: 5
+
+akcja: 0 - time: 3.497969
+pulse: 111 --- gsr: 21
+
+akcja: 0 - time: 4.557907
+pulse: 100 --- gsr: 48
+
+akcja: 0 - time: 5.62123
+pulse: 109 --- gsr: 8
+
+akcja: 0 - time: 6.668743
+pulse: 117 --- gsr: 12
+
+akcja: 0 - time: 7.723614
+pulse: 129 --- gsr: 1
+
+akcja: 1 - time: 15.65369
+pulse: 81 --- gsr: 22
+
+akcja: 1 - time: 16.69995
+pulse: 96 --- gsr: 7
+
+akcja: 1 - time: 17.74103
+pulse: 77 --- gsr: 43
+
+akcja: 1 - time: 18.82561
+pulse: 104 --- gsr: 33
+
+akcja: 1 - time: 19.90617
+pulse: 68 --- gsr: 43
+
+akcja: 1 - time: 21.00924
+pulse: 84 --- gsr: 23
+
+akcja: 0 - time: 3.46735
+pulse: 73 --- gsr: 26
+
+akcja: 0 - time: 4.555068
+pulse: 129 --- gsr: 41
+
+akcja: 0 - time: 5.607755
+pulse: 60 --- gsr: 42
+
+akcja: 0 - time: 6.703753
+pulse: 133 --- gsr: 23
+
+akcja: 0 - time: 7.78982
+pulse: 113 --- gsr: 43
+
+akcja: 1 - time: 15.44289
+pulse: 110 --- gsr: 28
+
+akcja: 1 - time: 16.4646
+pulse: 93 --- gsr: 6
+
+akcja: 1 - time: 17.49334
+pulse: 115 --- gsr: 34
+
+akcja: 1 - time: 18.52704
+pulse: 66 --- gsr: 4
+
+akcja: 1 - time: 19.57627
+pulse: 75 --- gsr: 32
+
+akcja: 1 - time: 20.6352
+pulse: 107 --- gsr: 14
+
+akcja: 1 - time: 21.73234
+pulse: 108 --- gsr: 17
+
+akcja: 1 - time: 22.88881
+pulse: 89 --- gsr: 44
+
+akcja: 1 - time: 23.98285
+pulse: 61 --- gsr: 15
+

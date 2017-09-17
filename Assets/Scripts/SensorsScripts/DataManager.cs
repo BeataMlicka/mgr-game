@@ -90,6 +90,14 @@ public class DataManager : MonoBehaviour {
 		}
 	}
 
+	//--------------------------------------------------------------------------------------------------------//
+	public float getPulse(){
+		return this.pulseInput;
+	}
+
+	public float getGSR(){
+		return this.gsrInput;
+	}
 
 	//--------------------------------------------------------------------------------------------------------//
 	private void checkActionCondition(bool firstCondition, bool secondCondition){
@@ -123,21 +131,6 @@ public class DataManager : MonoBehaviour {
 
 	}
 
-	static void WriteCatchingData(string pulse, string gsr){
 
-		//Debug.Log ("Dane fabularne zapisane do pliku.");
-
-		string firstPath = "Assets/Output/pulseCatchingData.txt";
-		string secondPath = "Assets/Output/gsrCatchingData.txt";
-
-		StreamWriter pulseWriter = new StreamWriter(firstPath, true);
-		StreamWriter gsrWriter = new StreamWriter(secondPath, true);
-
-		pulseWriter.WriteLine (pulse);
-		gsrWriter.WriteLine (gsr);
-
-		pulseWriter.Close ();
-		gsrWriter.Close ();
-	}
 
 }

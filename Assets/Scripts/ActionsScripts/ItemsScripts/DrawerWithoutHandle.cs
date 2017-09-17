@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class DrawerWithoutHandle : ItemAbstract {
 
+	/*
 	public GameObject drawerWithHandle;
 	public GameObject handle;
 
@@ -49,9 +50,9 @@ public class DrawerWithoutHandle : ItemAbstract {
 	}
 		
 	//--------------------------------------------------------------------------------------------------------//
-
+*/
 	public override void action(){
 		Debug.Log ("Drawer Action!");
 	}
-		
+
 }
