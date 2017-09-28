@@ -1,0 +1,438 @@
+fileFormatVersion: 2
+guid: 1c6501f1b99438649b1d757652dd5f35
+timeCreated: 1505757857
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: close_door
+    100002: close_door1
+    100004: close_door_frame2
+    100006: dining_room:doors
+    100008: //RootNode
+    100010: Mesh
+    100012: Mesh 1
+    100014: Mesh1
+    100016: Mesh1 1
+    100018: Mesh2
+    100020: Mesh2 1
+    100022: Mesh3
+    100024: Mesh4
+    100026: office1:close_door
+    100028: office1:dors_frames
+    100030: office1:pCube10
+    100032: office1:pCube11
+    100034: office1:pCube12
+    100036: office1:pCube13
+    100038: office1:pCube14
+    100040: office1:pCube15
+    100042: office1:pPlane1
+    100044: office1:walls
+    100046: office1:window
+    100048: office1:window_frame
+    100050: pCube10
+    100052: pCube11
+    100054: pCube12
+    100056: pCube13
+    100058: pCube14
+    100060: pCube15
+    100062: pCube35
+    100064: pCube36
+    100066: pCube37
+    100068: pCube38
+    100070: pCube39
+    100072: pPlane1
+    100074: window_frame
+    100076: window_with_boards
+    100078: window_with_boards1
+    100080: wood__set:Mesh
+    100082: wood__set:Mesh1
+    100084: books:balustrade
+    100086: books:book_1
+    100088: books:book_2
+    100090: books:book_20
+    100092: books:book_23
+    100094: books:book_3
+    100096: books:bookcase
+    100098: books:close_door
+    100100: books:desk
+    100102: books:Flashlight:Office:bottom1
+    100104: books:open_door
+    100106: books:parquete
+    100108: books:window
+    100110: ceiling
+    100112: ear_study3:Group43890
+    100114: labolatory_table:Mesh
+    100116: macabre:pCube2
+    100118: macabre:pCube3
+    100120: macabre:pCube4
+    100122: macabre:pPlane1
+    100124: macabre:pPlane3
+    100126: Mesh 2
+    100128: Mesh5
+    100130: pCube40
+    100132: pCube41
+    100134: pPlane3
+    100136: pPlane4
+    100138: pPlane5
+    100140: pPlane6
+    100142: pPlane7
+    400000: close_door
+    400002: close_door1
+    400004: close_door_frame2
+    400006: dining_room:doors
+    400008: //RootNode
+    400010: Mesh
+    400012: Mesh 1
+    400014: Mesh1
+    400016: Mesh1 1
+    400018: Mesh2
+    400020: Mesh2 1
+    400022: Mesh3
+    400024: Mesh4
+    400026: office1:close_door
+    400028: office1:dors_frames
+    400030: office1:pCube10
+    400032: office1:pCube11
+    400034: office1:pCube12
+    400036: office1:pCube13
+    400038: office1:pCube14
+    400040: office1:pCube15
+    400042: office1:pPlane1
+    400044: office1:walls
+    400046: office1:window
+    400048: office1:window_frame
+    400050: pCube10
+    400052: pCube11
+    400054: pCube12
+    400056: pCube13
+    400058: pCube14
+    400060: pCube15
+    400062: pCube35
+    400064: pCube36
+    400066: pCube37
+    400068: pCube38
+    400070: pCube39
+    400072: pPlane1
+    400074: window_frame
+    400076: window_with_boards
+    400078: window_with_boards1
+    400080: wood__set:Mesh
+    400082: wood__set:Mesh1
+    400084: books:balustrade
+    400086: books:book_1
+    400088: books:book_2
+    400090: books:book_20
+    400092: books:book_23
+    400094: books:book_3
+    400096: books:bookcase
+    400098: books:close_door
+    400100: books:desk
+    400102: books:Flashlight:Office:bottom1
+    400104: books:open_door
+    400106: books:parquete
+    400108: books:window
+    400110: ceiling
+    400112: ear_study3:Group43890
+    400114: labolatory_table:Mesh
+    400116: macabre:pCube2
+    400118: macabre:pCube3
+    400120: macabre:pCube4
+    400122: macabre:pPlane1
+    400124: macabre:pPlane3
+    400126: Mesh 2
+    400128: Mesh5
+    400130: pCube40
+    400132: pCube41
+    400134: pPlane3
+    400136: pPlane4
+    400138: pPlane5
+    400140: pPlane6
+    400142: pPlane7
+    2300000: close_door_frame2
+    2300002: Mesh
+    2300004: Mesh 1
+    2300006: Mesh1
+    2300008: Mesh1 1
+    2300010: Mesh2
+    2300012: Mesh2 1
+    2300014: Mesh3
+    2300016: Mesh4
+    2300018: office1:pCube10
+    2300020: office1:pCube11
+    2300022: office1:pCube12
+    2300024: office1:pCube13
+    2300026: office1:pCube14
+    2300028: office1:pCube15
+    2300030: office1:pPlane1
+    2300032: office1:window_frame
+    2300034: pCube10
+    2300036: pCube11
+    2300038: pCube12
+    2300040: pCube13
+    2300042: pCube14
+    2300044: pCube15
+    2300046: pCube35
+    2300048: pCube36
+    2300050: pCube37
+    2300052: pCube38
+    2300054: pCube39
+    2300056: pPlane1
+    2300058: window_frame
+    2300060: wood__set:Mesh
+    2300062: wood__set:Mesh1
+    2300064: books:book_1
+    2300066: books:book_2
+    2300068: books:book_20
+    2300070: books:book_23
+    2300072: books:book_3
+    2300074: ceiling
+    2300076: ear_study3:Group43890
+    2300078: labolatory_table:Mesh
+    2300080: macabre:pCube2
+    2300082: macabre:pCube3
+    2300084: macabre:pCube4
+    2300086: macabre:pPlane1
+    2300088: macabre:pPlane3
+    2300090: Mesh 2
+    2300092: Mesh5
+    2300094: pCube40
+    2300096: pCube41
+    2300098: pPlane3
+    2300100: pPlane4
+    2300102: pPlane5
+    2300104: pPlane6
+    2300106: pPlane7
+    3300000: close_door_frame2
+    3300002: Mesh
+    3300004: Mesh 1
+    3300006: Mesh1
+    3300008: Mesh1 1
+    3300010: Mesh2
+    3300012: Mesh2 1
+    3300014: Mesh3
+    3300016: Mesh4
+    3300018: office1:pCube10
+    3300020: office1:pCube11
+    3300022: office1:pCube12
+    3300024: office1:pCube13
+    3300026: office1:pCube14
+    3300028: office1:pCube15
+    3300030: office1:pPlane1
+    3300032: office1:window_frame
+    3300034: pCube10
+    3300036: pCube11
+    3300038: pCube12
+    3300040: pCube13
+    3300042: pCube14
+    3300044: pCube15
+    3300046: pCube35
+    3300048: pCube36
+    3300050: pCube37
+    3300052: pCube38
+    3300054: pCube39
+    3300056: pPlane1
+    3300058: window_frame
+    3300060: wood__set:Mesh
+    3300062: wood__set:Mesh1
+    3300064: books:book_1
+    3300066: books:book_2
+    3300068: books:book_20
+    3300070: books:book_23
+    3300072: books:book_3
+    3300074: ceiling
+    3300076: ear_study3:Group43890
+    3300078: labolatory_table:Mesh
+    3300080: macabre:pCube2
+    3300082: macabre:pCube3
+    3300084: macabre:pCube4
+    3300086: macabre:pPlane1
+    3300088: macabre:pPlane3
+    3300090: Mesh 2
+    3300092: Mesh5
+    3300094: pCube40
+    3300096: pCube41
+    3300098: pPlane3
+    3300100: pPlane4
+    3300102: pPlane5
+    3300104: pPlane6
+    3300106: pPlane7
+    4300000: pCube35
+    4300002: pCube36
+    4300004: close_door_frame2
+    4300006: pCube37
+    4300008: pCube38
+    4300010: pCube39
+    4300012: wood__set:Mesh1
+    4300014: Mesh
+    4300016: wood__set:Mesh
+    4300018: office1:pCube10
+    4300020: office1:pCube12
+    4300022: office1:pCube15
+    4300024: Mesh2
+    4300026: Mesh1
+    4300028: office1:pCube14
+    4300030: office1:pCube11
+    4300032: office1:pPlane1
+    4300034: office1:window_frame
+    4300036: office1:pCube13
+    4300038: Mesh1
+    4300040: Mesh
+    4300042: Mesh2
+    4300044: pCube10
+    4300046: pCube12
+    4300048: pCube15
+    4300050: Mesh3
+    4300052: Mesh4
+    4300054: pCube14
+    4300056: pCube11
+    4300058: pPlane1
+    4300060: window_frame
+    4300062: pCube13
+    4300064: ceiling
+    4300066: pPlane7
+    4300068: labolatory_table:Mesh
+    4300070: Mesh
+    4300072: Mesh5
+    4300074: ear_study3:Group43890
+    4300076: pCube40
+    4300078: pCube41
+    4300080: macabre:pPlane1
+    4300082: macabre:pPlane3
+    4300084: macabre:pCube2
+    4300086: macabre:pCube3
+    4300088: macabre:pCube4
+    4300090: pPlane3
+    4300092: pPlane4
+    4300094: pPlane5
+    4300096: pPlane6
+    4300098: books:book_1
+    4300100: books:book_2
+    4300102: books:book_3
+    4300104: books:book_20
+    4300106: books:book_23
+    6400000: close_door_frame2
+    6400002: Mesh
+    6400004: Mesh 1
+    6400006: Mesh1
+    6400008: Mesh1 1
+    6400010: Mesh2
+    6400012: Mesh2 1
+    6400014: Mesh3
+    6400016: Mesh4
+    6400018: office1:pCube10
+    6400020: office1:pCube11
+    6400022: office1:pCube12
+    6400024: office1:pCube13
+    6400026: office1:pCube14
+    6400028: office1:pCube15
+    6400030: office1:pPlane1
+    6400032: office1:window_frame
+    6400034: pCube10
+    6400036: pCube11
+    6400038: pCube12
+    6400040: pCube13
+    6400042: pCube14
+    6400044: pCube15
+    6400046: pCube35
+    6400048: pCube36
+    6400050: pCube37
+    6400052: pCube38
+    6400054: pCube39
+    6400056: pPlane1
+    6400058: window_frame
+    6400060: wood__set:Mesh
+    6400062: wood__set:Mesh1
+    6400064: books:book_1
+    6400066: books:book_2
+    6400068: books:book_20
+    6400070: books:book_23
+    6400072: books:book_3
+    6400074: ceiling
+    6400076: ear_study3:Group43890
+    6400078: labolatory_table:Mesh
+    6400080: macabre:pCube2
+    6400082: macabre:pCube3
+    6400084: macabre:pCube4
+    6400086: macabre:pPlane1
+    6400088: macabre:pPlane3
+    6400090: Mesh 2
+    6400092: Mesh5
+    6400094: pCube40
+    6400096: pCube41
+    6400098: pPlane3
+    6400100: pPlane4
+    6400102: pPlane5
+    6400104: pPlane6
+    6400106: pPlane7
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 1
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

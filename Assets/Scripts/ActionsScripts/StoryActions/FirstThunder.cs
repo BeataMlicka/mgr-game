@@ -7,8 +7,9 @@ public class FirstThunder : ActionsAbstract {
 	public GameObject flashlight;
 	//public Flashlight flashlightScript;
 
-	public AudioSource audioSource;
-	public AudioClip thunderSound;
+	public AudioSource firstThunder;
+	public AudioSource storm;
+	public AudioSource rain;
 
 	private float time;
 
@@ -16,6 +17,8 @@ public class FirstThunder : ActionsAbstract {
 	void Start () { 
 
 		time = 0;
+		firstThunder.enabled = false;
+		storm.enabled = false;
 	}
 
 	
@@ -27,13 +30,18 @@ public class FirstThunder : ActionsAbstract {
 			if (time < 5) {
 				time += Time.deltaTime;
 			} else {
+				LightManager.instance.setLampsState(false);
 				action ();
 			}
 		}
 	}
 
 	public override void action(){
-		audioSource.PlayOneShot (thunderSound);
-		setConditions (1, true);
+
+		rain.enabled = false;
+		firstThunder.enabled = true;
+		storm.enabled = true;
+		StoryGameManager.instance.setConditions (1, true);
+		Destroy (this);
 	}
 }

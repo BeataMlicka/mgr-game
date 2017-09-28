@@ -1,6 +1,8 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
+
 
 public class GameManager : MonoBehaviour {
 
@@ -9,12 +11,20 @@ public class GameManager : MonoBehaviour {
 
 	//kind of gameplay
 	public string currentGameVersion;
+	public GameObject currentLocation;
+
+	public GameObject mainCamera;
+	public GameObject gameManagers;
+	public GameObject player;
+
 
 	public float fullGameTime;
 	public bool actionFlag;
 
 	private AffectiveGameManager affectiveGameManager;
 	private StoryGameManager storyGameManager;
+
+	public bool changeScene;
 
 	//--------------------------------------------------------------------------------------------------------//
 
@@ -34,25 +44,32 @@ public class GameManager : MonoBehaviour {
 	//--------------------------------------------------------------------------------------------------------//
 	void Start(){
 		this.fullGameTime = 0;
-		currentGameVersion = "";
+		currentGameVersion = GameStateManager.instance.getCurrentGameVersion();
+
+		Debug.Log ("CURRENTGAME: " + currentGameVersion);
 
 		actionFlag = false;
 
-		affectiveGameManager = gameObject.GetComponent<AffectiveGameManager>();
 		storyGameManager = gameObject.GetComponent<StoryGameManager>();
+		affectiveGameManager = gameObject.GetComponent<AffectiveGameManager>();
+		changeScene = false;
 	}
 
 	//--------------------------------------------------------------------------------------------------------//
 
-	void Update(){
+	void FixedUpdate(){
 
 		//Debug.Log (fullGameTime);
 		this.fullGameTime += Time.deltaTime;
 
-		if (actionFlag) {
-			affectiveGameManager.action ();
-			actionFlag = false;
+		if(changeScene){
+			SceneManager.LoadScene("TheEnd");
+			gameManagers.SetActive (false);
+			mainCamera.SetActive (false);
+			player.SetActive (false);
 		}
+
+		//Debug.Log ("Current = " + currentLocation);
 	}
 		
 
@@ -72,6 +89,8 @@ public class GameManager : MonoBehaviour {
 	public float getFullGameTime(){
 		return this.fullGameTime;
 	}
+
+	//--------------------------------------------------------------------------------------------------------//
 
 }
 

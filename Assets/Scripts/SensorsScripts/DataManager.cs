@@ -7,7 +7,6 @@ using System;
 
 
 public class DataManager : MonoBehaviour {
-	
 
 	//time variables
 	private float time;
@@ -34,17 +33,22 @@ public class DataManager : MonoBehaviour {
 		gsr = gameObject.GetComponent<GalvanicSkinResponse>();
 		pulse = gameObject.GetComponent<Pulse>();
 	}
-	
+
 	//--------------------------------------------------------------------------------------------------------//
 
-	void Update(){
+	void FixedUpdate(){
 
 		time += Time.deltaTime;
 
 		if(time > 5 && GameManager.instance.getFullGameTime() > 30){
 
-			pulse.calculateAverage ();
-			gsr.calculateAverage ();
+			float pulseAverage;
+			float gsrAverage;
+
+			pulseAverage = pulse.calculateAverage ();
+			gsrAverage = gsr.calculateAverage ();
+
+			WriteAverage (Convert.ToString(pulseAverage), Convert.ToString(gsrAverage));
 
 			time = 0;
 			step++;
@@ -115,6 +119,7 @@ public class DataManager : MonoBehaviour {
 
 		//Debug.Log ("Dane zapisane do pliku.");
 
+
 		string firstPath = "Assets/Output/pulseData.txt";
 		string secondPath = "Assets/Output/gsrData.txt";
 
@@ -131,6 +136,25 @@ public class DataManager : MonoBehaviour {
 
 	}
 
+	static void WriteAverage(string pulse, string gsr) {
 
+		//Debug.Log ("Dane zapisane do pliku.");
+
+
+		string firstPath = "Assets/Output/averagePulseData.txt";
+		string secondPath = "Assets/Output/averageGSRData.txt";
+
+
+		//write data to test.txt file
+		StreamWriter pulseWriter = new StreamWriter(firstPath, true);
+		StreamWriter gsrWriter = new StreamWriter(secondPath, true);
+
+		pulseWriter.WriteLine (pulse);
+		gsrWriter.WriteLine (gsr);
+
+		pulseWriter.Close ();
+		gsrWriter.Close ();
+
+	}
 
 }

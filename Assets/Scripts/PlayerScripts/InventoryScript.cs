@@ -50,6 +50,7 @@ public class InventoryScript : MonoBehaviour {
 
 		buttonSize = (int)(Screen.height * 0.08);
 		buttonMargin = (int)(Screen.height * 0.01);
+
 		flashlightIsInside = false;
 	}
 
@@ -97,7 +98,7 @@ public class InventoryScript : MonoBehaviour {
 						itemsList[i].setItemCounter(itemsList[i].itemCounter - 1);
 						Debug.Log ("After" + " --- " + itemsList [i].itemCounter);
 
-						if (itemsList [i].itemCounter < 1) {
+						if (itemsList [i].itemCounter <= 1) {
 							//Debug.Log ("Counter mniejszy od 1!");
 							itemsList.Remove (itemsList [i]);
 						}
@@ -128,28 +129,28 @@ public class InventoryScript : MonoBehaviour {
 
 	public void addItem(ItemAbstract item){
 
-		Predicate<ItemAbstract> itemFind = (ItemAbstract i) => {
+		/*Predicate<ItemAbstract> itemFind = (ItemAbstract i) => {
 			return i.itemName == item.getItemName ();
-		};
+		};*/
 
 		// Predicate jest to klasa upraszczająca wyszukiwanie obiektu o zadanym kryterium w liście/tablicy obiektów	
 		//pozwala określić co z czym trzeba porównać
 
-		int index = itemsList.FindIndex (itemFind); //funkcja FindIndex przelatuje po tablicy i porównuje nazwy zwraca indeks
+//		int index = itemsList.FindIndex (itemFind); //funkcja FindIndex przelatuje po tablicy i porównuje nazwy zwraca indeks
 
-		if (index > -1) { //czyli przedmiot o danej nazwie jest już w inwentarzu
+/*		if (index > -1) { //czyli przedmiot o danej nazwie jest już w inwentarzu
 			item.setItemCounter (item.itemCounter + 1);
 
-			//Debug.Log ("ITEM NAME: " + item.getItemName() + " --- " + "AMOUNT: " + item.itemCounter);
+			Debug.Log ("ITEM NAME: " + item.getItemName() + " --- " + "AMOUNT: " + item.itemCounter);
 
-		} else {
+		} else {*/
 
 			itemsList.Add (item);
 			itemsInInventory++;
 			item.setItemCounter (item.itemCounter + 1);
 
 			//Debug.Log ("ITEM NAME: " + item.getItemName() + " --- " + "AMOUNT: " + item.itemCounter);
-		}
+		//}
 	}
 
 	//------------------------------------------------------------------------------------------------------//

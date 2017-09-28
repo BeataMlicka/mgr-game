@@ -20,7 +20,6 @@ public class MenuManager : MonoBehaviour {
 	//current game version
 	private string currentGameVersion; 
 
-
 	//--------------------------------------------------------------------------------------------------------//
 	void Start(){
 		
@@ -36,7 +35,7 @@ public class MenuManager : MonoBehaviour {
 	//menu functions
 
 	public void Play(){
-		SceneManager.LoadScene ("Intro");
+		SceneManager.LoadScene ("FirstLevel");
 	}
 
 	public void Quit(){
@@ -85,5 +84,6 @@ public class MenuManager : MonoBehaviour {
 	public void SetSoundsVolume(float value){
 
 	}
-		
+
+
 }

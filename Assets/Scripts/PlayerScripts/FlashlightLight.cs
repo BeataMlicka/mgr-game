@@ -8,7 +8,7 @@ public class FlashlightLight : MonoBehaviour {
 
 	public Light flashlight;
 
-	private bool isActive;
+	public bool isActive;
 
 	private int batteryActiveTime;
 	private float counter;
@@ -57,34 +57,6 @@ public class FlashlightLight : MonoBehaviour {
 		textureSize = (int)(Screen.height * 0.09);
 		margin = (int)(Screen.height * 0.02);
 	}
-		
-
-	//--------------------------------------------------------------------------------------------------------//
-
-	void FixedUpdate(){
-
-
-		//odliczanie czasu
-		if(isActive){
-
-			if (counter < timeStep) {
-				counter += Time.deltaTime;
-
-			} else { 
-
-				if (batteryLoadingLevel > 0) {
-
-					batteryLoadingLevel -= 15; //po 8 sekundach bateria rozładowywuje się o 5%
-				} else {
-					isActive = !isActive;
-					flashlight.enabled = false;
-				}
-
-				//Debug.Log ("Battery Loading Level: " + batteryLoadingLevel);
-				counter = 0;
-			}
-		}
-	}
 
 
 	//--------------------------------------------------------------------------------------------------------//
@@ -94,12 +66,33 @@ public class FlashlightLight : MonoBehaviour {
 
 		if(isActive){
 			
+			StoryGameManager.instance.flashlight = true;
 			flashlight.enabled = true;
+
+			if (counter < timeStep) {
+				counter += Time.deltaTime;
+
+			} else { 
+
+				if (batteryLoadingLevel > 0) {
+					batteryLoadingLevel -= 13; 
+				} else {
+					flashlight.GetComponent<Light> ().intensity = 0;
+				}
+
+				Debug.Log ("Battery Loading Level: " + batteryLoadingLevel);
+				counter = 0;
+			}
 		}
-				
-		else{
-				
-			flashlight.enabled = false;
+
+		if(batteryLoadingLevel > 0){
+			flashlight.GetComponent<Light> ().intensity = 10;
+			Monster.instance.attack = false;
+
+		}
+
+		if(batteryLoadingLevel <= 0){
+			Monster.instance.attack = true;
 		}
 	}
 
@@ -126,7 +119,9 @@ public class FlashlightLight : MonoBehaviour {
 		this.batteryLoadingLevel = batteryLoadingLevel + value;
 	}
 
-
+	public int getBatteryLoadingLevel(){
+		return this.batteryLoadingLevel;
+	}
 	//--------------------------------------------------------------------------------------------------------//
 	public void setIsActive(bool value){
 		this.isActive = value;

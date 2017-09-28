@@ -23,6 +23,7 @@ public class Battery : ItemAbstract {
 		if(objectIsSelected && Input.GetMouseButtonDown(0)){
 			setIcon (batteryIcon);
 			InventoryScript.instance.addItem (this);
+			itemCounter++;
 			Destroy (gameObject);
 		}
 	}
@@ -30,7 +31,6 @@ public class Battery : ItemAbstract {
 	void OnMouseEnter(){
 		CameraController.instance.setCursorOnObject(true);
 		this.objectIsSelected = true;
-		Debug.Log ("Jestem na klocku ;]");
 	}
 
 	void OnMouseExit(){
@@ -40,9 +40,16 @@ public class Battery : ItemAbstract {
 
 
 	//--------------------------------------------------------------------------------------------------------//
+	public void setItemCounter(int value){
+		this.itemCounter = value;
+	}
+
+
+	//--------------------------------------------------------------------------------------------------------//
 
 	public override void action(){
 		//Debug.Log ("JESTEM W BATERII");
 		FlashlightLight.instance.setBatteryLoadingLevel (20);
+		itemCounter--;
 	}
 }

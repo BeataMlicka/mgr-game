@@ -10,13 +10,42 @@ public class StoryGameManager : MonoBehaviour {
 	public static StoryGameManager instance;
 
 	private DataManager dataManager;
+
 	private float time;
-	private int step;
+	private int timeStep;
 
 	//var
 	private bool[] conditions;
-	public GameObject[] storyActions;
 
+	//extra conditions
+	public bool handleIsTaken;
+	public bool handleIsUsed;
+
+	public bool chestIsMoved;
+
+	public bool theBoxIsOpen;
+
+	public bool keyIsTaken;
+	public bool keyIsUsed;
+
+	public bool paintingFallen;
+
+	public bool spiderAttacked;
+
+	public bool sideHallwayFirstTrigger;
+
+	public bool diningRoomCheckpoint;
+
+	public bool labolatoryAlarm;
+
+	public bool flashlight;
+
+	public bool laboratoryKey;
+
+	public bool playerIsActive;
+
+
+	public GameObject player;
 	//--------------------------------------------------------------------------------------------------------//
 
 	void Awake(){
@@ -37,15 +66,38 @@ public class StoryGameManager : MonoBehaviour {
 	void Start () {
 
 		time = 0;
-		step = 0;
-		conditions = new bool[5];
+		timeStep = 0;
+		conditions = new bool[10];
+
+		//ustawienie wartości tabeli
 
 		for(int i = 0; i < conditions.Length; i++){
-
 			conditions [i] = false;
 		}
-
+			
 		dataManager = gameObject.GetComponent<DataManager> ();
+
+		handleIsTaken = false;
+		handleIsUsed = false;
+		chestIsMoved = false;
+		theBoxIsOpen = false;
+
+		paintingFallen = false;
+
+		keyIsTaken = false;
+		keyIsUsed = false;
+
+		spiderAttacked = false;
+
+		sideHallwayFirstTrigger = false;
+
+		diningRoomCheckpoint = false;
+		labolatoryAlarm = false;
+
+		flashlight = false;
+		laboratoryKey = false;
+
+		playerIsActive = true;
 	}
 
 
@@ -54,43 +106,25 @@ public class StoryGameManager : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 
-
 		for(int i = 0; i < conditions.Length; i++){
 
 			if(conditions[i]){
 
-				if (time < 1) {
-					time += Time.deltaTime;
-				} else {
-
 					WriteCatchingData (i, Convert.ToString(dataManager.getPulse()), Convert.ToString(dataManager.getGSR()), GameManager.instance.fullGameTime);
 
-					step++;
-					time = 0;
-
-					if(step == 5){
-						conditions [i] = false;
-					}
-				}
+				conditions [i] = false;
 			}
 		}
 
-		//sprawdzenie czasu
-		/*if (time < 1) {
-			time += Time.deltaTime;
-		} else {
-			//przejście po tablicy
-			for(int i = 0; i<conditions.Length; i++){
-				
-			}
+		if(!playerIsActive){
 
-			time = 0; 	
-		}*/
+			player.SetActive (false);
+		}
 	}
-		
+
 	//--------------------------------------------------------------------------------------------------------//
 	public void setConditions(int i, bool value){
-		this.conditions [i] = value;
+		conditions [i] = value;
 	}
 
 	//--------------------------------------------------------------------------------------------------------//

@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class DrawerWithoutHandle : ItemAbstract {
 
-	/*
+
 	public GameObject drawerWithHandle;
 	public GameObject handle;
 
@@ -23,18 +23,12 @@ public class DrawerWithoutHandle : ItemAbstract {
 	// Update is called once per frame
 	void Update () {
 
-		if (objectIsSelected && Input.GetMouseButtonDown (0) && handleIsActive) {
+		if (objectIsSelected && Input.GetMouseButtonDown (0) && handle.GetComponent<HandleData>().takeHandleFromInventory) {
+			Destroy (handle);
+			StoryGameManager.instance.handleIsUsed = true;
 			drawerWithHandle.SetActive (true);
 			this.gameObject.SetActive (false);
-			Destroy (handle);
 		}
-
-		if (!handle.GetComponent<Handle> ().isInInventory) {
-			handleIsActive = true;
-		} else {
-			handleIsActive = false;
-		}
-			
 	}
 
 
@@ -50,7 +44,7 @@ public class DrawerWithoutHandle : ItemAbstract {
 	}
 		
 	//--------------------------------------------------------------------------------------------------------//
-*/
+
 	public override void action(){
 		Debug.Log ("Drawer Action!");
 	}

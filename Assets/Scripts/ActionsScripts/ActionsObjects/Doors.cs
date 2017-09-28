@@ -15,7 +15,7 @@ public class Doors : InteractiveGameObject {
 
 	void OnTriggerStay(Collider other){
 
-		if (Input.GetMouseButtonDown(2)) {
+		if (Input.GetKeyDown(KeyCode.F)) {
 
 			if(isOpen){
 
@@ -40,11 +40,12 @@ public class Doors : InteractiveGameObject {
 			isOpen = !isOpen;
 		} else {
 			animator.SetTrigger ("open");
-			audioSource.PlayOneShot (openSound);
 			isOpen = !isOpen;
 			this.slam ();
 		}
 	}
+
+
 
 	public void creak(){
 

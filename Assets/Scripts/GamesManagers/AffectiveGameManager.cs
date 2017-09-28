@@ -4,19 +4,26 @@ using UnityEngine;
 
 public class AffectiveGameManager : MonoBehaviour {
 
-	// Use this for initialization
-	void Start () {
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
+	public GameObject currentLocation;
+
+	void Start(){
 	}
 
+	void Update(){
 
-	public void action() {
+		currentLocation = GameManager.instance.currentLocation;
 
-		Debug.Log ("ACTION! ACTION! ACTION!");
+		//Debug.Log ("Current location = " + currentLocation);
+
+		//Debug.Log ("REGISTER: " + register);
+		//Debug.Log ("REGISTER: " + timeOfVisit);
+
+		if(GameManager.instance.currentGameVersion == "AffectiveGame"){
+			if(GameManager.instance.actionFlag){
+				currentLocation.GetComponent<SingleRoom> ().action();
+				GameManager.instance.actionFlag = false;
+			}
+		}
+
 	}
 }

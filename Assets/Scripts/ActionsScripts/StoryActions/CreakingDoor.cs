@@ -19,6 +19,6 @@ public class CreakingDoor : ActionsAbstract {
 
 	public override void action(){
 		doorsScript.creak();
-		setConditions (0, true);
+		StoryGameManager.instance.setConditions (0, true);
 	}
 }

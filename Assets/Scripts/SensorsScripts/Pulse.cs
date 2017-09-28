@@ -25,7 +25,7 @@ public class Pulse : SensorAbstract {
 
 	/// --------------------------------------------------------------------------------------------------------------------------------
 	//metoda obliczająca średnią, z pomiarów pobranych od momentu obliczenia ostatniej średniej
-	public override void calculateAverage(){
+	public override float calculateAverage(){
 		
 		float sum = 0;
 		float currentAverage = 0;
@@ -41,10 +41,13 @@ public class Pulse : SensorAbstract {
 		}
 
 		currentAverage = sum / register;
+		average = currentAverage;
 		//Debug.Log ("Average: " + average);
 		this.averages.Add(currentAverage);
 
 		Debug.Log ("P aver = " + currentAverage);
+
+		return currentAverage;
 
 		register = 0;
 	}
@@ -70,4 +73,7 @@ public class Pulse : SensorAbstract {
 		}
 
 	}
+
+	/// --------------------------------------------------------------------------------------------------------------------------------
+
 }

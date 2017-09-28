@@ -1,12 +1,16 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class PlayerData : MonoBehaviour {
 
 	public static PlayerData instance; 
 
-	private int playerHealth;
+	public float currentHealth;
+	public float maxHealth;
+
+	public Slider healthbar;
 
 	//--------------------------------------------------------------------------------------------------------//
 
@@ -23,14 +27,33 @@ public class PlayerData : MonoBehaviour {
 
 	}
 
+	//--------------------------------------------------------------------------------------------------------//
 
 	// Use this for initialization
 	void Start () {
-		playerHealth = 100;
+		maxHealth = 100f;
+		currentHealth = maxHealth;
+
+		healthbar.value = calculateHealth ();
 	}
 	
 	// Update is called once per frame
 	void Update () {
-		
+		if(Input.GetKeyDown(KeyCode.H)){
+			damage (20f);
+		}	
+	}
+
+
+	public void damage(float damage){
+		currentHealth -= damage;
+
+		healthbar.value = calculateHealth ();
+	}
+
+
+	public float calculateHealth(){
+
+		return currentHealth / maxHealth;
 	}
 }

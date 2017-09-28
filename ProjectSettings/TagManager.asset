@@ -11,6 +11,7 @@ TagManager:
   - white_handle
   - drawer_without_handle
   - office
+  - crowler
   layers:
   - Default
   - TransparentFX
